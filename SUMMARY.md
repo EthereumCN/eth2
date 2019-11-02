@@ -11,7 +11,7 @@
 * [Parity Technologies](teams-building-eth2/substrate-shasper.md)
 * [Sigma Prime](teams-building-eth2/lighthouse-update.md)
 * [Status](teams-building-eth2/nimbus.md)
-* [Ethereum Foundation](teams-building-eth2/trinity.md)
+* [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
 
 ## ETH2规格 <a id="eth2-specs"></a>

@@ -32,11 +32,11 @@ Status 的 Nimbus 团队目前在用 Nim 语言建立 libp2p，这是一个允�
 
 ## 资源
 
-* [Website](https://nimbus.status.im/)
+* 网站：[Website](https://nimbus.status.im/)
 * [Github](https://github.com/status-im/nimbus)
-* [Twitter](https://twitter.com/ethstatus)
+* 推特：[Twitter](https://twitter.com/ethstatus)
 
-## 推特
+## 实时推特
 
 {% embed url="https://twitter.com/ethstatus" %}
 
