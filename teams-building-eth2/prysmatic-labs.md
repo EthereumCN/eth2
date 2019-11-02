@@ -1,10 +1,12 @@
 ---
-description: We are committed to scaling Ethereum.
+description: 我们为以太坊扩容努力着。
 ---
 
 # Prysmatic Labs
 
 ## 简介
+
+![](../.gitbook/assets/prysmstripe.png)
 
 Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人都对以太坊协议有深刻认识。他们背景知识丰富，对分布式系统、云计算等都有所了解。
 
