@@ -1,0 +1,42 @@
+---
+description: 基于 Swift 语言的客户端
+---
+
+# Yeeth
+
+## 简介
+
+Yeezy Ethereum, pronounced: how Mike Tyson says "yes"
+
+官方网址：[Yeeth.af](https://yeeth.af/)
+
+##  Yeeth客户端
+
+## 团队成员
+
+#### Dean Eigenmann 
+
+Yeethus 
+
+#### [Github](https://github.com/decanus) / [Twitter](https://twitter.com/DeanEigenmann)
+
+#### 
+
+#### Eric Tu
+
+Saint Tu
+
+[Github](https://github.com/tueric) / [Twitter](https://twitter.com/erktu)
+
+## 资助情况
+
+目前正在Gitcoin进行筹资：[ Gitcoin Grants](https://gitcoin.co/grants/41/yeeth)
+
+## 团队社交网站
+
+#### [Github](https://github.com/yeeth)                             [博客](https://medium.com/yeeth)                         [推特](https://twitter.com/yeethaf)
+
+{% embed url="https://twitter.com/yeethaf" %}
+
+
+

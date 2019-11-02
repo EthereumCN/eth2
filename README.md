@@ -1,2 +1,12 @@
-# eth2
-all about the development of Ethereum 2.0
+---
+description: 'ETH2.0, and soon!'
+---
+
+# ETH2.0即将来临
+
+## _**迈向未来。**_
+
+> 🌁 _**这是一个区块链世界最雄心勃勃的计划，重造以太坊。**_
+
+
+
