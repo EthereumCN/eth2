@@ -25,7 +25,7 @@ description: 耶子耶子，以太坊！ 像泰森一样发“yes”。
 
 目前正在Gitcoin进行筹资：[ Gitcoin Grants](https://gitcoin.co/grants/41/yeeth)
 
-## 团队社交网站
+## 资源
 
 #### [Github](https://github.com/yeeth)                             [博客](https://medium.com/yeeth)                         [推特](https://twitter.com/yeethaf)
 
