@@ -1,10 +1,12 @@
 ---
-description: Building the infrastructurefor web3
+description: 我们正在为web3建基础设施。
 ---
 
 # ChainSafe
 
 ## 简介
+
+![](../.gitbook/assets/0.png)
 
 Chainsafe 是一支在多伦多的草根团队，其成员因在多伦多以太坊开发者交流会中结缘而建立 ChainSafe Systems 公司。他们研究开发区块链技术，为各式各样的以太坊项目（如Bunz, Shyft, Aion, and Polymath）提供咨询服务。
 
