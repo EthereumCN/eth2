@@ -8,6 +8,8 @@ description: 耶子耶子，以太坊！ 像泰森一样发“yes”。
 
 耶子耶子，以太坊！                                                                                                                   像泰森一样发“yes”。
 
+![](../.gitbook/assets/yeezy.jpeg)
+
 ##  Yeeth客户端
 
 基于 Swift 语言的客户端 
