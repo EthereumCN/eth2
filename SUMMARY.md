@@ -5,12 +5,12 @@
 ## ETH2.0开发团队 <a id="teams-building-eth2"></a>
 
 * [Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
-* [ChainSafe](teams-building-eth2/lodestar.md)
-* [PegaSys](teams-building-eth2/artemis.md)
+* [ChainSafe](teams-building-eth2/chainsafe.md)
+* [PegaSys](teams-building-eth2/pegasys.md)
 * [Harmony](teams-building-eth2/harmony.md)
-* [Parity Technologies](teams-building-eth2/substrate-shasper.md)
-* [Sigma Prime](teams-building-eth2/lighthouse-update.md)
-* [Status](teams-building-eth2/nimbus.md)
+* [Parity Technologies](teams-building-eth2/parity.md)
+* [Sigma Prime](teams-building-eth2/sigma-prime.md)
+* [Status](teams-building-eth2/status.md)
 * [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
 
