@@ -6,6 +6,8 @@ description: 专为以太坊开发的客户端
 
 ## 简介
 
+![](../.gitbook/assets/triceratops-2x.png)
+
 Trinity 团队由6名开发者组成，其中有5名服务于以太坊基金会，这个项目隶属于以太坊基金会。
 
 ## Trinity客户端
