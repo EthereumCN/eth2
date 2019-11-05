@@ -14,7 +14,7 @@
 * [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
 
-## ETH2规格 <a id="eth2-specs"></a>
+## ETH2规范 <a id="eth2-specs"></a>
 
 * [V0.9.0版本](eth2-specs/v0.9.0.md)
 
@@ -27,10 +27,10 @@
 * [Serenity](research/serenity/README.md)
   * [Serenity设计理念](research/serenity/rationale.md)
   * [Phase 2 Proposal 2](research/serenity/phrase.md)
+* [ETH2 双周刊](https://news.ethereum.cn/archives/category/eth2%e5%8f%8c%e5%91%a8%e5%88%8a)
 
 ## 新闻间 <a id="news"></a>
 
-* [ETH2 双周刊](news/xin-wen-jian.md)
 * [Two-Point-Oh](news/two-point-oh/README.md)
   * [Two Point Oh: Justification and Finalization](news/two-point-oh/two-point-oh-justification-and-finalization.md)
   * [9 Things You Didn't Know About Ethereum 2.0](news/two-point-oh/9-things-you-didnt-know-about-ethereum-2.0.md)
