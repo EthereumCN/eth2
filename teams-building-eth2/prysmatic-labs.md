@@ -54,7 +54,11 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
       <td style="text-align:left">BoltDB&#xFF0C;&#x4E00;&#x79CD;&#x4E66;&#x5199;&#x4F18;&#x5316;&#x7684;&#x6301;&#x4E45;&#x952E;&#x503C;&#x5B58;&#x50A8;</td>
     </tr>
   </tbody>
-</table>## 团队成员
+</table>#### 客户端更新动态
+
+{% embed url="https://medium.com/prysmatic-labs" %}
+
+## 团队成员
 
 #### 
 

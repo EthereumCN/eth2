@@ -12,6 +12,10 @@ description: BLOCKCHAIN & CYBERSECURITY EXPERTISE
 
 他们正在开发的以太坊 2.0 客户端被称为“Lighthouse”（灯塔），是用 Rust 语言编写的。                                                                                                            Lighthouse 发展的理念是安全第一。最近，该团队对 Rust 代码进行了广泛的检查，并密切监视以太坊2.0客户端中软件依赖关系的安全状态。此外，Sigma Prime 在模糊测试方面投入了大量的时间和精力，以确保安全性。
 
+**客户端更新动态**
+
+{% embed url="https://lighthouse.sigmaprime.io/" %}
+
 ## 团队成员
 
 | 成员 | 简介 |
