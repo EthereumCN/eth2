@@ -1,12 +1,12 @@
 ---
-description: 耶子耶子，以太坊！ 像泰森一样发“yes”。
+description: 耶子耶子，以太坊！ 像泰森一样say“yes”！
 ---
 
 # Yeeth
 
 ## 简介
 
-耶子耶子，以太坊！                                                                                                                   像泰森一样发“yes”。
+像泰森一样say“yes”！
 
 ![](../.gitbook/assets/yeezy.jpeg)
 
