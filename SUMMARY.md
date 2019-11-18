@@ -48,12 +48,12 @@
   * [We are the Eth 2.0 Research Team \(Pt. 2\)](news/eth2-ama/we-are-the-eth-2.0-research-team-pt.-2.md)
 * [ETH2.0实施者Calls](news/eth2.0-shi-shi-zhe-calls.md)
 
-## 前序，未来 <a id="guo-qu-wei-lai"></a>
+## 里程碑 <a id="milestones"></a>
 
-* [ETH1.x](guo-qu-wei-lai/eth-1.x.md)
-* [ETH3](guo-qu-wei-lai/eth3.0/README.md)
-  * [SNARK](guo-qu-wei-lai/eth3.0/snark.md)
-  * [PLONK](guo-qu-wei-lai/eth3.0/plonk.md)
+* [ETH1.x](milestones/eth-1.x.md)
+* [ETH3](milestones/eth3.0/README.md)
+  * [SNARK](milestones/eth3.0/snark.md)
+  * [PLONK](milestones/eth3.0/plonk.md)
 
 ## 延伸阅读
 
