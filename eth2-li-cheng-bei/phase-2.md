@@ -2,9 +2,7 @@
 
 ## 相关概念
 
-ECN会及时跟踪EF\(以太坊基金会\)在eth 2 阶段2\(phase 2\)的开发进度，相关讨论与阶段性形成的概念。
-
-## 支持我们
+ECN\(ethereum.cn\)会及时跟踪EF\(以太坊基金会\)在eth 2 阶段2\(phase 2\)的开发进度，相关讨论与阶段性形成的概念。
 
 我们属于开源社区，这里需要你的支持！ 
 
@@ -27,10 +25,10 @@ ECN会及时跟踪EF\(以太坊基金会\)在eth 2 阶段2\(phase 2\)的开发�
 * [Glossary of Terms](https://hackmd.io/UzysWse1Th240HELswKqVA?view#Glossary-of-Terms)
 * [Jobs](https://hackmd.io/UzysWse1Th240HELswKqVA?view#Jobs)
 
-### Getting Started <a id="Getting-Started"></a>
+### 从这里开始 <a id="Getting-Started"></a>
 
-To dive straight into the current proposal from Vitalik Buterin:  
-[https://notes.ethereum.org/s/Bkoaj4xpN](https://notes.ethereum.org/s/Bkoaj4xpN)
+了解Vitalik Buterin关于EHT2的提案:  
+[https://notes.ethereum.org/s/Bkoaj4xpN](https://notes.ethereum.org/s/Bkoaj4xpN) 我们有中文版本
 
 For an **introduction**, start here:
 
