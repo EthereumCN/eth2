@@ -2,6 +2,12 @@
 
 * [ETH2.0即将来临](README.md)
 
+## ETH2里程碑
+
+* [Phase 0](eth2-li-cheng-bei/phase-0.md)
+* [Phase 1](eth2-li-cheng-bei/phase-1.md)
+* [Phase 2](eth2-li-cheng-bei/phase-2.md)
+
 ## ETH2.0开发团队 <a id="teams-building-eth2"></a>
 
 * [Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
@@ -47,12 +53,6 @@
   * [We are the Eth 2.0 Research Team](news/eth2-ama/we-are-the-eth-2.0-research-team.md)
   * [We are the Eth 2.0 Research Team \(Pt. 2\)](news/eth2-ama/we-are-the-eth-2.0-research-team-pt.-2.md)
 * [ETH2.0实施者Calls](news/eth2.0-shi-shi-zhe-calls.md)
-
-## ETH2里程碑
-
-* [Phase 0](eth2-li-cheng-bei/phase-0.md)
-* [Phase 1](eth2-li-cheng-bei/phase-1.md)
-* [Phase 2](eth2-li-cheng-bei/phase-2.md)
 
 ## 继往，开来 <a id="history-future"></a>
 
