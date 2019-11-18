@@ -48,12 +48,16 @@
   * [We are the Eth 2.0 Research Team \(Pt. 2\)](news/eth2-ama/we-are-the-eth-2.0-research-team-pt.-2.md)
 * [ETH2.0实施者Calls](news/eth2.0-shi-shi-zhe-calls.md)
 
-## 里程碑 <a id="milestones"></a>
+## ETH2里程碑
 
-* [ETH1.x](milestones/eth-1.x.md)
-* [ETH3](milestones/eth3.0/README.md)
-  * [SNARK](milestones/eth3.0/snark.md)
-  * [PLONK](milestones/eth3.0/plonk.md)
+* [Phase 0](eth2-li-cheng-bei/phase-0.md)
+
+## 继往，开来 <a id="history-future"></a>
+
+* [ETH1.x](history-future/eth-1.x.md)
+* [ETH3](history-future/eth3.0/README.md)
+  * [SNARK](history-future/eth3.0/snark.md)
+  * [PLONK](history-future/eth3.0/plonk.md)
 
 ## 延伸阅读
 
