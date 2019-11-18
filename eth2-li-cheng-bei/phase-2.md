@@ -28,7 +28,7 @@ ECN\(ethereum.cn\)会及时跟踪EF\(以太坊基金会\)在eth 2 阶段2\(phase
 ### 从这里开始 <a id="Getting-Started"></a>
 
 了解Vitalik Buterin关于EHT2的提案:  
-[https://notes.ethereum.org/s/Bkoaj4xpN](https://notes.ethereum.org/s/Bkoaj4xpN) 我们有中文版本
+[https://notes.ethereum.org/s/Bkoaj4xpN](https://notes.ethereum.org/s/Bkoaj4xpN) 
 
 For an **introduction**, start here:
 
