@@ -1,10 +1,11 @@
 # Table of contents
 
-* [ETH2.0即将来临](README.md)
+* [ETH2.0](README.md)
 
 ## ETH2里程碑
 
-* [Phase 0](eth2-li-cheng-bei/phase-0.md)
+* [Phase 0](eth2-li-cheng-bei/phase-0/README.md)
+  * [V0.9.0版本规范](eth2-li-cheng-bei/phase-0/specs-v0.9.0.md)
 * [Phase 1](eth2-li-cheng-bei/phase-1.md)
 * [Phase 2](eth2-li-cheng-bei/phase-2.md)
 
@@ -19,10 +20,6 @@
 * [Status](teams-building-eth2/status.md)
 * [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
-
-## ETH2规范 <a id="eth2-specs"></a>
-
-* [V0.9.0版本](eth2-specs/v0.9.0.md)
 
 ## 研究室 <a id="research"></a>
 
