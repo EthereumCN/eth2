@@ -1,6 +1,6 @@
 # Table of contents
 
-* [ETH2.0](README.md)
+* [ETH2.0概览](README.md)
 
 ## ETH2里程碑
 
@@ -21,15 +21,14 @@
 * [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
 
-## 研究室 <a id="research"></a>
+## 研究室 <a id="eth2-researces"></a>
 
-* [Sharding 分片](research/sharding/README.md)
-  * [以太坊分片研究纲要](research/sharding/sharding-research-compendium.md)
-* [Casper Proof-of-Stake](research/casper/README.md)
-  * [Casper FFG](research/casper/casper-ffg.md)
-* [Serenity](research/serenity/README.md)
-  * [Serenity设计理念](research/serenity/rationale.md)
-  * [Phase 2 Proposal 2](research/serenity/phrase.md)
+* [Casper Proof-of-Stake](eth2-researces/casper/README.md)
+  * [Casper FFG](eth2-researces/casper/casper-ffg.md)
+* [Sharding 分片](eth2-researces/sharding/README.md)
+  * [以太坊分片研究纲要](eth2-researces/sharding/sharding-research-compendium.md)
+* [Eth2 经济学](eth2-researces/eth2-jing-ji-xue.md)
+* [Eth1-&gt;Eth2 迁移](eth2-researces/eth2-migration.md)
 
 ## 新闻间 <a id="news"></a>
 
