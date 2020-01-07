@@ -18,7 +18,7 @@ Chainsafe 正在进行 Lodestar 项目，研发用 Javascript 编写的以太坊
 
 **客户端更新动态**
 
-{% embed url="https://medium.com/chainsafe-systems/lodestar-post-devcon-update-78886344c1e1" %}
+{% embed url="https://medium.com/chainsafe-systems" %}
 
 ## 资助情况
 

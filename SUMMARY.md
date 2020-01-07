@@ -23,10 +23,8 @@
 
 ## 研究室 <a id="eth2-researces"></a>
 
-* [Casper Proof-of-Stake](eth2-researces/casper/README.md)
-  * [Casper FFG](eth2-researces/casper/casper-ffg.md)
-* [Sharding 分片](eth2-researces/sharding/README.md)
-  * [以太坊分片研究纲要](eth2-researces/sharding/sharding-research-compendium.md)
+* [Casper Proof-of-Stake](eth2-researces/casper.md)
+* [Sharding 分片](eth2-researces/https-knol.ethereum.cn-research-and-developement-sharding.md)
 * [Eth2 经济学](eth2-researces/eth2-jing-ji-xue.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researces/eth2-migration.md)
 
@@ -64,6 +62,5 @@
 * [Phase 0 deepdive](yan-shen-yue-du/untitled-1.md)
 * [Phase 0 规范图示](yan-shen-yue-du/phase-0-gui-fan-tu-shi.md)
 * [Ethereum2.0 Reddit AMA](yan-shen-yue-du/ethereum2.0-reddit-ama.md)
-* [你对以太坊的期待是什么？](yan-shen-yue-du/what-to-expect-when-eths-expecting.md)
 * [Vitalik奇思异想语录](yan-shen-yue-du/vitalik-qi-si-yi-xiang-yu-lu.md)
 

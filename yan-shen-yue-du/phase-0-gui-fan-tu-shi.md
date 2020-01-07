@@ -24,33 +24,19 @@ Diagrams:
 * [SSZ encoding](https://github.com/protolambda/eth2-docs#ssz-encoding)
 * [Shuffling](https://github.com/protolambda/eth2-docs#shuffling)
 
-#### Timeline concept
+![Basic timeline example: Blocks, Slots and Epochs](https://github.com/protolambda/eth2-docs/raw/master/eth2-timeline.png)
 
-[![Basic timeline example: Blocks, Slots and Epochs](https://github.com/protolambda/eth2-docs/raw/master/eth2-timeline.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-timeline.png)
+![Beacon State transition for Phase-0](https://github.com/protolambda/eth2-docs/raw/master/eth2-transition.png)
 
-#### Phase-0 BeaconState transition
+![Justification and Finalization](https://github.com/protolambda/eth2-docs/raw/master/eth2-finalization.png)
 
-[![Beacon State transition for Phase-0](https://github.com/protolambda/eth2-docs/raw/master/eth2-transition.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-transition.png)
+![Rewards and penalties table](https://github.com/protolambda/eth2-docs/raw/master/eth2-rewards-penalties.png)
 
-#### Justification and Finalization
+![SSZ hash-tree-root, merkleization](https://github.com/protolambda/eth2-docs/raw/master/eth2-htr.png)
 
-[![Justification and Finalization](https://github.com/protolambda/eth2-docs/raw/master/eth2-finalization.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-finalization.png)
+![SSZ encoding](https://github.com/protolambda/eth2-docs/raw/master/eth2-ssz.png)
 
-#### Rewards and penalties table
-
-[![Rewards and penalties table](https://github.com/protolambda/eth2-docs/raw/master/eth2-rewards-penalties.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-rewards-penalties.png)
-
-#### SSZ hash-tree-root and merkleization
-
-[![SSZ hash-tree-root, merkleization](https://github.com/protolambda/eth2-docs/raw/master/eth2-htr.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-htr.png)
-
-#### SSZ encoding
-
-[![SSZ encoding](https://github.com/protolambda/eth2-docs/raw/master/eth2-ssz.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-ssz.png)
-
-#### Shuffling
-
-[![Shuffling](https://github.com/protolambda/eth2-docs/raw/master/eth2-shuffling.png)](https://github.com/protolambda/eth2-docs/blob/master/eth2-shuffling.png)
+![Shuffling](https://github.com/protolambda/eth2-docs/raw/master/eth2-shuffling.png)
 
 #### 
 
