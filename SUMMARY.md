@@ -5,7 +5,7 @@
 ## ETH2里程碑
 
 * [Phase 0](eth2-li-cheng-bei/phase-0/README.md)
-  * [V0.9.0版本规范](eth2-li-cheng-bei/phase-0/specs-v0.9.0.md)
+  * [Specs](eth2-li-cheng-bei/phase-0/specs.md)
 * [Phase 1](eth2-li-cheng-bei/phase-1.md)
 * [Phase 2](eth2-li-cheng-bei/phase-2.md)
 
@@ -52,6 +52,9 @@
 
 * [ETH1.x](history-future/eth-1.x.md)
 * [ETH3](history-future/eth3.0/README.md)
+  * [Casper CBC](history-future/eth3.0/casper-cbc.md)
+  * [超二次分片](history-future/eth3.0/chao-er-ci-fen-pian.md)
+  * [数据可用性证明](history-future/eth3.0/shu-ju-ke-yong-xing-zheng-ming.md)
   * [SNARK](history-future/eth3.0/snark.md)
   * [PLONK](history-future/eth3.0/plonk.md)
 

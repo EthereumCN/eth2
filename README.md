@@ -123,10 +123,10 @@ Vitalik Buterin给出的[Ethereum 2.0设计原则](https://notes.ethereum.org/9l
 
 ## 参考来源
 
-* [Ethhub](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/)
 * [Ethereum 2.0 Info](https://hackmd.io/@benjaminion/By6gV_dXS)
 * [Ethereum 2.0 Specifications](https://github.com/ethereum/eth2.0-specs)
 * [Serenity Design Rationale](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#Serenity-Design-Rationale)
+* [Ethhub](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/)
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#roadmap)
 * [Ethereum 2.0 Devs Handbook](https://notes.ethereum.org/@serenity/handbook#-Ethereum-20-Devs-Handbook-and-FAQs)
 

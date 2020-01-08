@@ -1,13 +1,5 @@
 # Phase 2
 
-## 相关概念
-
-ECN\(ethereum.cn\)会及时跟踪EF\(以太坊基金会\)在eth 2 阶段2\(phase 2\)的开发进度，相关讨论与阶段性形成的概念。
-
-我们属于开源社区，这里需要你的支持！ 
-
-\*\*\*\*
-
 ## 内容列表
 
 * [Getting Started](https://hackmd.io/UzysWse1Th240HELswKqVA?view#Getting-Started)

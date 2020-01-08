@@ -2,16 +2,15 @@
 
 ### 为什么说ETH3.0的未来是SNARK?
 
-* \*\*\*\*
-  * **flexibility**
-    * **one tool to rule them all**
-  * **lean and resilient crypto**
-    * **consolidation of assumptions**
-    * **hash functions only**
-    * **Lindy effect**
-  * **performance**
-    * **relatively fast prover**
-    * **data is cheap™**
+* **flexibility**
+  * one tool to rule them all
+* **lean and resilient crypto**
+  * consolidation of assumptions
+  * hash functions only
+  * Lindy effect
+* **performance**
+  * relatively fast prover
+  * data is cheap™
 
 \*\*\*\*
 
