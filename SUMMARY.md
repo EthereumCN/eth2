@@ -4,8 +4,7 @@
 
 ## ETH2里程碑
 
-* [Phase 0](eth2-li-cheng-bei/phase-0/README.md)
-  * [Specs](eth2-li-cheng-bei/phase-0/specs.md)
+* [Phase 0](eth2-li-cheng-bei/phase-0.md)
 * [Phase 1](eth2-li-cheng-bei/phase-1.md)
 * [Phase 2](eth2-li-cheng-bei/phase-2.md)
 
