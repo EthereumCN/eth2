@@ -24,7 +24,7 @@
 
 * [Casper Proof-of-Stake](eth2-researces/casper.md)
 * [Sharding 分片](eth2-researces/https-knol.ethereum.cn-research-and-developement-sharding.md)
-* [Eth2 经济学](eth2-researces/eth2-jing-ji-xue.md)
+* [Eth2经济学](eth2-researces/eth2-jing-ji-xue.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researces/eth2-migration.md)
 
 ## 新闻间 <a id="news"></a>

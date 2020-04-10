@@ -1,6 +1,6 @@
 # Phase 1
 
-#### 🏝 **Vitalik对分片的比喻：**
+#### \*\*\*\*🏝 **Vitalik对分片的比喻：**
 
 > “Imagine that Ethereum has been split into thousands of islands. Each island can do its own thing. Each of the islands has its own unique features and everyone belonging on that island, i.e., the accounts, can interact with each other and they can freely indulge in all its features. If they want to contact with other islands, they will have to use some sort of protocol”. 
 >
@@ -18,7 +18,7 @@
 
 
 
-🔗 **交联 Crosslink**
+\*\*\*\*🔗 **交联 Crosslink**
 
 每个分片的当前状态（“组合数据根”）会周期性地记录在信标链区块中，作为交联，其中包含自上一个交联以来给定分片中的所有区块。当信标链区块最终确定后，相应的分片区块也将被视为最终确定，如此其他分片可以信任该分片并进行跨分片交易。
 

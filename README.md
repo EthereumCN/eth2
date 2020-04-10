@@ -16,7 +16,7 @@ description: 以太坊正在迈向全新未来——Eth2。我们会在此跟进
 
 Vitalik Buterin给出的[Ethereum 2.0设计原则](https://notes.ethereum.org/9l707paQQEeI-GPzVK02lA?view#Principles)：
 
-◽ **Simplicity 简洁性**
+\*\*\*\*◽ **Simplicity 简洁性**
 
 特别是由于加密经济 PoS 和二次分片 \(quadratic sharding\) 在本质上很复杂，因此协议应该在其决策中尽可能地追求最大的简洁性。这是非常重要的，因为这将能够：
 
@@ -95,7 +95,7 @@ Vitalik Buterin给出的[Ethereum 2.0设计原则](https://notes.ethereum.org/9l
 
 
 
-🔗 **交联 Crosslink**
+\*\*\*\*🔗 **交联 Crosslink**
 
 每个分片的当前状态（“组合数据根”）会周期性地记录在信标链区块中，作为交联，其中包含自上一个交联以来给定分片中的所有区块。当信标链区块最终确定后，相应的分片区块也将被视为最终确定，如此其他分片可以信任该分片并进行跨分片交易。
 
