@@ -82,8 +82,6 @@ Ethresear.ch中的开放讨论：
 
 #### 异步跨分片交易 <a id="Asynchronous-Cross-Shard-Transactions"></a>
 
-Most discussions around the yanking/receipt model. Requires a crosslink on the Beacon Chain for finality \(~6 minutes\)
-
 关于yanking/收据模型的讨论。需要信标链上的交联才能最终确认（约6分钟）
 
 * [https://ethresear.ch/t/phase-2-pre-spec-cross-shard-mechanics/4970](https://ethresear.ch/t/phase-2-pre-spec-cross-shard-mechanics/4970)
@@ -146,43 +144,47 @@ Eth1或Eth2 EE中的费用市场的细节（类似于EIP 1559）是一个公开�
 
 ## FAQ
 
-_What is the general timeline and roadmap for phase 2?_
+_阶段2的大致时间线和路线图是什么？_
 
-It depends on dicussion within the community. For example, there is talk on having two main execution environments built. One is focused on eth1 and migrating the current contract state etc. over. The other is focused on being optimized for eth2, enabling contracts and funds to easily bridge over. This can provide more flexibility since it would not be constrained by the current eth 1 design. However, both these execution environments will need significant care, time, benchmarking and testing to complete. We project phase 2 will be ready to launch before these execution environments are completed. As a result, it is up to the needs of the community. Would it be helpful to have simple transfer, rollups, layer 2 checkins and other simpler execution environments launch first? Having an open system may be helpful before initiating the switchover or launching the eth 2/eth 1 execution environment.
+这需要社区讨论决定。例如关于建立两个主要执行环境的讨论。其中一个侧重于eth1，以及迁移当前的合约状态等。另一个则专注于优化eth2，从而使合约和资金能够轻松过渡。这可以提供更高的灵活性，因为它不会受到当前eth 1设计的制约。然而，这两个执行环境都需要大量的维护、时间和测试才能完成。我们预计第2阶段将在这些执行环境完成之前准备就绪。这取决于社区的需求。
 
-_What about account abstraction and conversations regarding it?_
+_首先启动简单的传输、Rollups、第二层checkin和更简单的执行环境是否有帮助？_
 
-This is now delegated to the actual execution environment itself. The rules can be established on an execution environment basis.
+在启动过渡或启动eth 2 / eth 1执行环境之前，拥有一个开放的系统可能会有所帮助。
 
-## Glossary of Terms
+_那么账户抽象和与其相关的对话呢？_
 
-**Delayed Execution**
+现在将其授权给实际的执行环境本身。可以在执行环境的基础上建立相应规则。
 
-Execution does not occur within the consensus or core protocol layer, but occurs within a 2nd layer market that allows for re-executions as more transactions or re-orgs are introduced. It assumes a separate class of light clients dedicated to execution. The main chain would only act as a mechanism for ordering and organizing transactions. This approach is commonly discussed as a solution for atomic or synchronous cross shard transactions. See Cross Shard transaction section above.
+## 相关术语
 
-**Dynamic Host Function \(DHF\)**
+**Delayed Execution 延时执行**
 
-Additional host functions that are dynamically linked into an execution evnvironment at runtime.
+执行不会在共识或核心协议层内发生，而是在第二层发生，随着更多事务或重组的引入，允许重新执行。假设有专门用于执行的独立轻客户端，主链仅充当组织事务的机制。通常这种方法作为原子或同步跨分片交易的解决方案进行讨论。请参阅上述“跨分片交易”部分。
 
-**Execution Environment \(EE\)**
+**Dynamic Host Function \(DHF\) 动态主机功能**
 
-A pure, reducing function deployed to the Beacon Chain. Execution that happens within the consensus layer on each shard will occur within the guidelines/framework of an execution environment. Essentially, an execution environment is the framework/set of rules that determine how the state transition can occur using Ewasm as the VM. An execution environment would also set the rules by with further Ewasm code can be executed under \(smart contracts an example\) within its system. It bounds/limits the way state can be stored and changed. See Getting Started resources to understand more.
+在运行时动态链接到执行环境的额外主机功能。
 
-**Execution Environment Shard State**
+**Execution Environment \(EE\) 执行环境**
 
-As described in Vitalik’s [proposal 2](https://notes.ethereum.org/s/Bkoaj4xpN), each shard contains a list of state roots that map to the execution environments defined on the Beacon Chain. Each execution environment maintains a state root on a shard. There are current questions on if the state root/capability appears on every shard or if payment is required to include it per each shard.
+部署到信标链的纯粹折叠函数。每个分片共识层内的执行将在执行环境的准则/框架内进行。本质上，执行环境是规则的框架/规则集，用于确定Ewasm作为虚拟机如何进行状态转换。它限制了状态的存储和更改方式。
+
+**Execution Environment Shard State 执行环境分片状态**
+
+如[Vitalik的提案](https://notes.ethereum.org/s/Bkoaj4xpN)所述，每个分片都包含一个状态根列表，这些状态根映射到信标链上定义的执行环境。每个执行环境在分片上维护一个状态根。目前存在一些疑问：状态根/功能是否存在每个分片上，或者在每个分片上包含状态根是否需要付费。
 
 **Eth 1 EE**
 
-The Eth 1 execution environment will define the rule/system for how current eth1 accounts, etc. will operate within eth 2. Current discussions state a shard will be dedicated to the eth 1 EE and additional rules will be introduced to allow cross shard transactions and interactions. The idea is to eliminate interruptions in current ethereum accounts and transactions as a switchover occurs.
+Eth 1执行环境将定义规则/系统，以说明当前eth1帐户等如何在eth 2中运行。当前的讨论表明，分片将专用于eth 1 EE，并将引入其他规则以允许跨分片交易和交互。目的是防止过渡时当前的以太坊账户和交易发生中断。
 
-**Ethereum Environment Interface \(EEI\)**
+**Ethereum Environment Interface \(EEI\) 以太坊环境接口**
 
-The EEI is a set of DHFs that provide the executing EE, and its children, Ethereum-specific functionality, such as retrieving the current block number, calling contracts, deterining the transaction sender, etc.
+EEI是一组DHF，为执行中的EE及其子代提供以太坊特定功能，例如检索当前区块编号、调用合约、确定交易发送方等。
 
 **Eth 2 EE**
 
-Eth 2 opens up significantly more possiblities and constraining those to stay compatible with the current ethereum 1 EVM, rules, and contracts should be reduced. As a result, there is discussion around introducing a more expanded eth 2 EE which can easily bridge from the eth 1 EE.
+Eth 2大大增加了可能性，并尽力保持与eth 1 EVM、规则和合约的兼容性。结果针对引入经扩展的eth 2 EE进行了讨论，该eth 2 EE可以轻松地与eth 1 EE进行桥接。
 
 **Generic Asset EE**
 
