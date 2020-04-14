@@ -32,13 +32,13 @@
 * [以太坊周刊](https://news.ethereum.cn/category/%e4%bb%a5%e5%a4%aa%e5%9d%8a%e5%91%a8%e5%88%8a/)
 * [ETH2 双周刊](https://news.ethereum.cn/category/eth2%e5%8f%8c%e5%91%a8%e5%88%8a/)
 * [Eth2 AMA](news/eth2-ama/README.md)
-  * [Reddit Eth2 AMA](news/eth2-ama/we-are-the-eth-2.0-research-team.md)
-* [ETH2.0实施者Calls](news/eth2.0-shi-shi-zhe-calls.md)
+  * [Reddit](news/eth2-ama/eth2-reddit-ama.md)
+  * [Gitcoin Media](news/eth2-ama/gitcoin-media-ama.md)
 
 ## 继往，开来 <a id="history-future"></a>
 
-* [ETH1.x](history-future/eth-1.x.md)
-* [ETH3](history-future/eth3.0/README.md)
+* [ETH 1.x](history-future/eth-1.x.md)
+* [ETH 3](history-future/eth3.0/README.md)
   * [Casper CBC](history-future/eth3.0/casper-cbc.md)
   * [超二次分片](history-future/eth3.0/chao-er-ci-fen-pian.md)
   * [数据可用性证明](history-future/eth3.0/shu-ju-ke-yong-xing-zheng-ming.md)
