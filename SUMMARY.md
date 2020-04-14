@@ -29,22 +29,10 @@
 
 ## 新闻间 <a id="news"></a>
 
-* [以太坊周刊](https://news.ethereum.cn/archives/category/%e4%bb%a5%e5%a4%aa%e5%9d%8a%e5%91%a8%e5%88%8a)
-* [ETH2 双周刊](https://news.ethereum.cn/archives/category/eth2%e5%8f%8c%e5%91%a8%e5%88%8a)
-* [Two-Point-Oh](news/two-point-oh/README.md)
-  * [Two Point Oh: Justification and Finalization](news/two-point-oh/two-point-oh-justification-and-finalization.md)
-  * [9 Things You Didn't Know About Ethereum 2.0](news/two-point-oh/9-things-you-didnt-know-about-ethereum-2.0.md)
-  * [Two Point Oh: Randomness](news/two-point-oh/two-point-oh-randomness.md)
-  * [Two Point Oh: The Tale of Two Ethers](news/two-point-oh/two-point-oh-the-tale-of-two-ethers.md)
-  * [Two Point Oh: The Beacon Chain](news/two-point-oh/two-point-oh-the-beacon-chain.md)
-  * [Two Point Oh: Explaining Validators](news/two-point-oh/two-point-oh-explaining-validators.md)
-* [ConsenSys 码场](news/consensys-di-pan/README.md)
-  * [How 30+ ETH 2.0 Devs Locked Themselves in to Achieve Interoperability](news/consensys-di-pan/how-30+-eth-2.0-devs-locked-themselves-in-to-achieve-interoperability.md)
-  * [Why Web3 Developers Are Switching to the Pantheon Ethereum Client](news/consensys-di-pan/why-web3-developers-are-switching-to-the-pantheon-ethereum-client.md)
-  * [Ethereum 2.0’s Latest Strides Forward](news/consensys-di-pan/ethereum-2.0s-latest-strides-forward.md)
+* [以太坊周刊](https://news.ethereum.cn/category/%e4%bb%a5%e5%a4%aa%e5%9d%8a%e5%91%a8%e5%88%8a/)
+* [ETH2 双周刊](https://news.ethereum.cn/category/eth2%e5%8f%8c%e5%91%a8%e5%88%8a/)
 * [Eth2 AMA](news/eth2-ama/README.md)
-  * [We are the Eth 2.0 Research Team](news/eth2-ama/we-are-the-eth-2.0-research-team.md)
-  * [We are the Eth 2.0 Research Team \(Pt. 2\)](news/eth2-ama/we-are-the-eth-2.0-research-team-pt.-2.md)
+  * [Reddit Eth2 AMA](news/eth2-ama/we-are-the-eth-2.0-research-team.md)
 * [ETH2.0实施者Calls](news/eth2.0-shi-shi-zhe-calls.md)
 
 ## 继往，开来 <a id="history-future"></a>
