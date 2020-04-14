@@ -8,7 +8,7 @@
 * [Phase 1](eth2-li-cheng-bei/phase-1.md)
 * [Phase 2](eth2-li-cheng-bei/phase-2.md)
 
-## ETH2.0开发团队 <a id="teams-building-eth2"></a>
+## ETH2.0 开发团队 <a id="teams-building-eth2"></a>
 
 * [Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
 * [ChainSafe](teams-building-eth2/chainsafe.md)
@@ -43,7 +43,6 @@
 ## 延伸阅读
 
 * [迈向宁静Serenity](yan-shen-yue-du/mai-xiang-ning-jing-serenity.md)
-* [ETH2.0 概要](yan-shen-yue-du/eth2.0-gai-yao.md)
 * [Phase 0 deepdive](yan-shen-yue-du/untitled-1.md)
 * [Phase 0 规范图示](yan-shen-yue-du/phase-0-gui-fan-tu-shi.md)
 * [Ethereum2.0 Reddit AMA](yan-shen-yue-du/ethereum2.0-reddit-ama.md)
