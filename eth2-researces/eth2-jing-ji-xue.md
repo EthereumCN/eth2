@@ -1,37 +1,39 @@
 # Eth2经济学
 
-### Introduction <a id="introduction"></a>
+## 简介
 
-The Ethereum 2.0 upgrade will bring with it a switch from Proof of Work to Proof of Stake. This means that rather than pay miners to secure the network, we will be paying validators to secure the network. It's vitally important to get the economics of staking right so that the network stays healthy and secure.
+以太坊2.0升级将实现从工作量证明（PoW）到权益证明（PoS）的转换，这意味着维护网络安全的主力军将不再是矿工，而是验证者。其中非常重要的是要掌控好其内在的质押权经济，以保持网络健康和安全。
 
-If the incentive to stake is too low, the network will not get the minimum amount of validators needed to keep many shards going. If the incentive is too high, the network is overpaying for security and inflating at a rate that is detrimental to the economics of the network as a whole.
+如果质押激励过少，验证者数量将不足以运行分片网络。如果质押激励过多，为求网络安全所支出的奖励过多，通货膨胀现象将以一定的速率加剧，以至于损害整个网络的经济效益。
 
-There are a few considerations when it comes to how many validators the network "needs". According to the latest spec, the recommended minimum validators per committee is 111. At 1024 shards that would be 113,664 validators and 3,637,248 total ETH staked.
+关于以太坊网络需要多少个验证者，目前经过深思熟虑得出了一些想法。根据最新规范，每个委员会的验证者数量应该不低于111。因此，1024个分片中将存在113,664个验证者，3,637,248枚ETH被质押。
 
-To achieve crosslinks on all shards within 1 epoch, the committee size would be 256. That equates to 8,388,608 total ETH at stake on the network. Having less is fine it just means crosslinks become rarer.
+为了能够在1个epoch的时间内完成所有分片之间的交联（crosslinks），委员会验证者规模要达到256个，这相当于网络上被质押的ETH总共要达到8,388,608个。验证者规模越小越好，因为这意味着交联数量减少。
 
-### Terms <a id="terms"></a>
+## 术语
 
-NOTE: Some of these are taken from [https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0\_beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md)
+部分来源：[https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0\_beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md)
 
-* **Validator** - a participant in the Casper/sharding consensus system. You can become one by depositing 32 ETH into the Casper mechanism.
-* **Committee** - a \(pseudo-\) randomly sampled subset of active validators. When a committee is referred to collectively, as in "this committee attests to X", this is assumed to mean "some subset of that committee that contains enough validators that the protocol recognizes it as representing the committee".
-* **Issuance Rate** - The annualized rate at which ETH supply grows.
-* **Issuance** - The annualized rate at which validators are rewarded \(in ETH\).
+* **验证者**：Casper/分片共识系统的参与者。质押32枚ETH即可成为此机制中的一名验证者。
+* **委员会：活跃验证者的伪随机采样子集。**
+* **发行率（Issuance Rate）**：ETH供应量年均增长速率。
+* **收益率（Issuance）**：验证者年均奖励率。
 
-### Validator Economic Incentive <a id="validator-economic-incentive"></a>
+## 验证者经济激励
 
-There are many things that a user will consider when wanting to become a validator. In the base case, some users may believe in the Ethereum network so much that they would stake at a loss if need be. A good example of this is the 12,000 Ethereum nodes running today. However, in the simplest case we can break down the thought process as follows:
+在基本情况下，一些用户可能会对以太坊存在信仰，以至于他们会在需要他们的时候糊里糊涂就进行质押。今天正在运行中的12,000个以太坊节点正是一个很好的证明。
 
-Total Incentive to Stake = Validator Rewards + Network Fees - Cost to run a Validator
+但对于许多人来说，成为验证者前需要考虑很多因素。在最简单的情况下，我们可以按如下方程分解激励思维过程：
 
-\*One factor discussed later that validators will consider as well is competition.
+质押总激励 = 验证者奖励 + 网络费用 - 运行验证者节点成本
 
-### Staking Rewards <a id="staking-rewards"></a>
+\*下面还会提到竞争能力这一考虑因素。
 
-In order to incentivize those that have ETH to stake in the network, there must be some type of reward. It's unlikely that many people would stake their ETH for no reward. Serenity accomplishes this by paying validators a reward for every block they successfully propose and attest. This reward is a sliding scale based on total network stake. So if total ETH stake is low, the issuance rate goes up and as stake rises, it starts to fall. The current [suggested payouts](https://github.com/ethereum/eth2.0-specs/pull/971) are as follows:
+## 质押奖励
 
-| ETH validating | Max annual issuance | Max annual network issuance % | Max annual return rate \(for validators\) |
+为了激励以太币持有者进行质押，提供某种奖励是很有必要的。因为对于很多人来说，无偿质押ETH是不太可能的。因此，为解决此问题，Serenity（宁静）实行激励机制，为每个成功提议和证明一个区块的验证者支付奖励。该奖励会基于主网质押总量的变化而动态变化。具体来说，若以太坊的质押总量降低，发行率就会上升，若质押总量上升，发行率就会开始下降。以下为目前推荐方案：
+
+| ETH质押量 | 最大年均发行量 | 最大年均发行率 | 验证者最大年均收益率 |
 | :--- | :--- | :--- | :--- |
 | 1,000,000 | 181,019 | 0.17% | 18.10% |
 | 3,000,000 | 313,534 | 0.30% | 10.45% |
@@ -39,52 +41,54 @@ In order to incentivize those that have ETH to stake in the network, there must 
 | 30,000,000 | 991,483 | 0.94% | 3.30% |
 | 100,000,000 | 1,810,193 | 1.71% | 1.81% |
 
-[According to Vitalik Buterin](https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t?utm_source=share&utm_medium=web2x), these are maximum numbers and there are many factors that can decrease the total issuance amounts. They are:
+[Vitalik Buterin表示](https://www.reddit.com/r/ethtrader/comments/bffp0n/higher_pos_rewards_proposed/elen71t/?utm_source=share&utm_medium=web2x)，以上列出数据都是最大限值，总发行量会由于多种因素的影响在此基础上减少。影响因素如下：
 
-* Validators going offline. Combining the individual and collective penalties, every 1% of validators offline cuts total issuance by around 3%, and if more than 33% ever go offline at once many coins could get burned quickly.
-* Validators getting slashed. Probably will happen infrequently in practice.
-* Transaction fees being burned due to EIP 1559 \(estimate ~10k ETH/year initially while usage is still low, ramping up to hopefully hundreds of thousands of ETH/year eventually\)
-* Transaction fees being burned to pay for state rent \(this mechanism could possibly be folded into the gas mechanism and hence the EIP 1559 burn\)
+* 验证者离线。结合个人和集体处罚来看，每1％个验证者下线，总发行量就会比正常情况减少约3％；若当下离线验证者超过33％，总发行量会严重下降。
+* 验证者被罚没。在实际中，发生概率很低。
+* EIP 1559提议减少交易费用。最初交易率较低时，估计每年减少约10,000 个ETH，最终有望提高到每年减少数十万个ETH。
+* 用交易费用来支付状态租金，此机制可能会并入gas机制，从而变成采用EIP 1559。
 
-[According to Justin Drake](https://github.com/ethereum/eth2.0-specs/pull/971#issuecomment-485069932), this could result in the 30,000,000 staked figure about resulting in 0.5% network issuance and 5% staker return.
-
-### Fees <a id="fees"></a>
+## 费用
 
 Validators earn a cut of the transaction fees that people pay to use the network. However, due to a burn mechanism implemented in Phase 1, a majority of fees on the network will be burned and removed from total supply.
 
-### Staking Costs and Risks <a id="staking-costs-and-risks"></a>
+目前验证者可以得到人们所支付的网络交易费用中的一部分。然而，由于在阶段1中将实施烧毁机制，网络上的大部分费用都将被烧毁，并从总供应量中扣除。
 
-Validating and earning rewards is not a free lunch. There are many things to consider for one to become a validator. These factors will be considered by every validator when contemplating if the staking rewards are "worth it". They are:
+## 质押成本与风险
 
-* Computing cost
-  * Users will need to run validators clients at a minimum and likely a beacon node as well. This requires computing resources.
-  * Beacon Node: similar to running geth/parity today, will want to run 1 of these.
-  * Validator client: lightweight and need one per 32 ETH stake.
-  * Rough estimates on costs are $120/year for a beacon node and $60/year per validator client.
-* Capital acquisition and lockup
-  * The user must acquire the necessary 32 Ether either via purchase or mining.
-  * Stakers can't directly sell staked Ether while it's staked.
-  * If the user wants to withdraw funds, there is a set amount of time they must wait to get their ETH back. However, this time has come down considerably in the latest versions of the spec. The minimum withdraw queue wait is 18 hours. This could go up if a lot of people are exiting at the same time but 18 hours will likely be the norm.
-* Code Risk
-  * There is some code risk involved in staking that users will take into account. This will be more of a concern early on and likely dissipate over time. It's important to distinguish between client side code risk and consensus code risk. If the network runs into a consensus code break, the network will hard fork and fix it, so that's less of a concern. However, client side code risk is more serious because it'll be hard to distinguish that from a malicious fault.
-* General uptime and maintenance cost
-  * Users need to make sure their validator doesn't have downtime or they risk a quadratic leak on their stake.
-  * If a user has multiple validators, maintenance cost and worry of the infrastructure comes into play.
-* Security risk
-  * Beyond failures in the client code, stakers are responsible for the security environment of their validator clients \(internet connection, operating system, hardware, etc.\). If their validator client gets hacked due to a security failure, leading to forced downtime and/or misbehavior, there's currently no way to recover funds.
-  * This risk is similar to the risk of getting Ether stolen from a wallet due to a hacked laptop or smartphone. With decentralized autonomy comes responsibility.
+天下没有免费的午餐，验证获得奖励也如此。成为验证者前要考虑很多因素，来权衡是否值得为这些质押奖励成为验证者。考虑因素如下：
 
-### Competition <a id="competition"></a>
+* 计算成本
+  * 至少要运行验证者客户端，并且可能还需要运行一个信标节点，这需要算力资源。
+  * 信标节点要运行类似于当今的geth / parity客户端之一。
+  * 验证者客户端属于轻客户端，每质押32枚 ETH就可运行一个客户端。
+  * 估计运行一个信标节点的年均成本为120美元，验证者客户端的年均成本则为60美元。
+* 资本获取与锁定
+  * 用户必须要通过购买或挖矿获得32个以太币。
+  * 质押金在质押期间无法使用。
+  * 如果验证者要提取ETH质押金，则必须等待一定的时间才能取回。然而，据最新规范版本规定，等待时间已大幅削减，最快能够在18个小时内取回。若有很多验证者同时提取，则可能需要等待更长时间，但通常维持在18个小时左右。
+* 代码风险
+  * 用户会考虑到质押所产生的代码风险。在早期，该问题可能会比较困扰，但随着时间的推移，问题可能将迎刃而解。区分客户端代码风险和共识代码风险非常重要。若是共识代码不一致，网络将进行硬分叉并对其进行修复，因此不必担心此问题。若是客户端代码风险，事态则相对严重，因为区别此风险与恶意错误具有难度性。
+* 一般正常运行时间和维护成本
+  * 用户需要确保其验证者客户端不会离线，否则他们的质押金将承担着二次处罚风险。
+  * 如果用户运行多个验证者客户端，维护成本和基础架构则会成为担忧之处。
+* 安全风险
+  * 除了客户端代码故障外，质押者还要负责维护其验证者客户端的安全环境，包括互联网连接、操作系统、硬件等方面。如果其验证者客户端由于安全故障而被黑客入侵，导致强制停机或行为不当，目前是无法取回损失资金的。
+  * 此处的安全风险，类似于入侵笔记本电脑或智能手机后从钱包中窃取以太币。实行去中心化自治的同时，也要承担相应的责任。
 
-A very important factor in determining if staking ETH is worth it is comparing the net reward versus competition.
+## Competition 竞争
 
-**Decentralized Finance**  
- Decentralized finance applications such as [Compound Finance](https://compound.finance/), [Dharma](https://dharma.io/) and [Maker](https://makerdao.com/). These applications offer ways for users to lock up ETH and gain a reward. Trying to understand what these offerings are or will be is something that should be considered.
+确定是否值得成为以太坊验证者的一个非常重要的因素就是，要权衡净奖励与竞争能力的利弊。
 
-**Other Investment Vehicles**  
- More traditional investment alternatives such as bonds, certificates of deposit, savings account, etc. can be considered competition to staking as well. While not as directly influential to the decent as DeFi apps, they need to be considered.
+**去中心化金融**
 
-### Resources <a id="resources"></a>
+去中心化金融应用程序如Compound Finance、Dharma和Maker，为用户提供了锁定ETH获取奖励的新方式。不妨来了解这些产品如何运作，未来将如何发展！
 
-* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120)
+**其他投资**
+
+诸如债券、存单、储蓄账户等更传统的投资替代方案也可以被视为以太坊质押的竞争者。尽管不像DeFi apps那样具有直接竞争力，但它们仍然需要处于考虑范围内。
+
+## 其他资源
+
+* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120) 
 
