@@ -38,12 +38,7 @@
 ## 继往，开来 <a id="history-future"></a>
 
 * [ETH 1.x](history-future/eth-1.x.md)
-* [ETH 3](history-future/eth3.0/README.md)
-  * [Casper CBC](history-future/eth3.0/casper-cbc.md)
-  * [超二次分片](history-future/eth3.0/chao-er-ci-fen-pian.md)
-  * [数据可用性证明](history-future/eth3.0/shu-ju-ke-yong-xing-zheng-ming.md)
-  * [SNARK](history-future/eth3.0/snark.md)
-  * [PLONK](history-future/eth3.0/plonk.md)
+* [ETH 3](history-future/eth3.0.md)
 
 ## 延伸阅读
 
