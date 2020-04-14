@@ -108,9 +108,9 @@ Ethresear.ch中的开放讨论：
 
 Scout目前正致力于对可行性/吞吐量以及更多有关执行环境的无状态模型进行基准测试。假设使用无状态模型，则需要适当的基础设施。例如，需要有一组参与者来维护当前状态并打包交易的见证数据。每个分片的多个执行环境周围也需要存在存档节点和全节点，以保留状态的历史记录。所有这些参与者角色都需要进一步探索。
 
-Vitalik[讨论](https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/5)了有关如何接收当前状态或向交易添加见证/状态数据。轻客户端是提供此状态数据的自然候选者。要注意的是，轻客户端只能在一个分片上运行。确实还有一些问题悬而未决：
+Vitalik[讨论](https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/5)了有关如何接收当前状态或向交易添加见证/状态数据。轻客户端服务器是提供此状态数据的自然候选者。要注意的是，轻客户端服务器只能在一个分片上运行。确实还有一些问题悬而未决：
 
-* 对于不同的执行环境我们是否需要不同的轻客户端来操作状态？
+* 对于不同的执行环境我们是否需要不同的轻客户端服务器来操作状态？
 * 我们如何构建一个简单、快速运行的守护程序以增强分布式网络对于中心化服务器的竞争力？
 * 统一状态通道设置，以便用户发现并支付轻型客户端服务费？
 * 节点如何结合来自多个用户/提供者的数据？对此已进行了一些[讨论](https://ethresear.ch/t/state-providers-relayers-bring-back-the-mempool/5647)。
@@ -121,7 +121,7 @@ Vitalik[讨论](https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/5
 
 最近提出了一种替代方法。该中继者市场允许任何中继者打包交易，只需要区块矿工在区块末尾向费用市场EE发出一次调用。此调用将资金从中继者转移到区块矿工，以验证交易的哈希值已包括在内。因此共识层需要添加一种回溯机制，从而允许附加的wasm主机功能，使交易能够读取同一区块中先前交易的哈希。这是一种向中继者支付交易哈希打包费的简单方式。
 
-Eth1或Eth2 EE中的费用市场的细节（类似于EIP 1559）是一个公开主题，尚未进行深入探索。另外，已经建议将轻客户端作为一种通过状态通道提供状态数据的机制。对于唯一的EE（例如基于ZK的EE），费用市场的建设必须良好运作，这一点至关重要。[此处](https://ethresear.ch/t/layer-2-state-schemes/5691)是针对费用市场和第二层机制影响的一些讨论。
+Eth1或Eth2 EE中的费用市场的细节（类似于EIP 1559）是一个公开主题，尚未进行深入探索。另外，已经建议将轻客户端服务器作为一种通过状态通道提供状态数据的机制。对于唯一的EE（例如基于ZK的EE），费用市场的建设必须良好运作，这一点至关重要。[此处](https://ethresear.ch/t/layer-2-state-schemes/5691)是针对费用市场和第二层机制影响的一些讨论。
 
 ## 开放性问题
 
@@ -133,7 +133,7 @@ Eth1或Eth2 EE中的费用市场的细节（类似于EIP 1559）是一个公开�
 * 发布执行环境的费用
   * 在每个分片和在信标链发布脚本独立收费？
   * 应该收取多少费用？
-* 费用市场、状态提供者（见证提供者）、轻客户端等等需要基础设施的支撑
+* 费用市场、状态提供者（见证提供者）、轻客户端服务器等等需要基础设施的支撑
 * 无状态模型的吞吐量和可行性
 * 支持同一分片上执行环境之间的同步调用
 * 跨分片交易、调用以及其他机制
@@ -160,7 +160,7 @@ _那么账户抽象和与其相关的对话呢？_
 
 **Delayed Execution 延时执行**
 
-执行不会在共识或核心协议层内发生，而是在第二层发生，随着更多事务或重组的引入，允许重新执行。假设有专门用于执行的独立轻客户端，主链仅充当组织事务的机制。通常这种方法作为原子或同步跨分片交易的解决方案进行讨论。请参阅上述“跨分片交易”部分。
+执行不会在共识或核心协议层内发生，而是在第二层发生，随着更多事务或重组的引入，允许重新执行。假设有专门用于执行的独立轻客户端服务器，主链仅充当组织事务的机制。通常这种方法作为原子或同步跨分片交易的解决方案进行讨论。请参阅上述“跨分片交易”部分。
 
 **Dynamic Host Function \(DHF\) 动态主机功能**
 
@@ -186,47 +186,47 @@ EEI是一组DHF，为执行中的EE及其子代提供以太坊特定功能，例
 
 Eth 2大大增加了可能性，并尽力保持与eth 1 EVM、规则和合约的兼容性。结果针对引入经扩展的eth 2 EE进行了讨论，该eth 2 EE可以轻松地与eth 1 EE进行桥接。
 
-**Generic Asset EE**
+**Generic Asset EE 通用资产EE**
 
-A concept where one execution environment manages token and eth balances across all execution environments. If synchronous calls between execution environments in the same shard is supported, this approach may be quite valuable. If not, it would likely be used as an asynchronous system to claim funds in a universal fee market. Some discussion here: [https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/11](https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/11)
+一个执行环境管理所有执行环境中的通证和eth余额。如果可以在同一分片中执行环境之间进行同步调用，那么此方法可能非常有价值。如果不然，那很可能会被用作异步系统，以在通用费用市场上获得资金。[此处](https://ethresear.ch/t/one-fee-market-ee-to-rule-them-all/5608/11)是相关讨论。
 
-**Host Function**
+**Host Function 主机功能**
 
-A host function is a method that the node makes available to the execution environment during runtime. The [list](https://github.com/ewasm/ewasm-rust-api/blob/92d14a6072ff4f15963ac8ac1ef0afb4681445d0/src/eth2.rs#L20-L24) of host functions is still under specification.
+主机功能是节点在运行时可用于执行环境的一种方法。主机功能[列表](https://github.com/ewasm/ewasm-rust-api/blob/92d14a6072ff4f15963ac8ac1ef0afb4681445d0/src/eth2.rs#L20-L24)仍在规范中。
 
-**Light client Server**
+**Light client Server 轻客户端服务器**
 
-A set of actors dedicated to syncing to the latest state for a shard. It may or may not contain historical data and should keep track of the result/transactions of each slot. Light client servers should be capable of submitting transactions to the network or validator mempools. Some discussion regarding the fee market introduces the concept of light client servers as witness/state providers for transactions in a stateless system. Incentives may be introduced/encouraged via state channels, etc… See fee market section above.
+一组致力于同步到分片最新状态的参与者。它可能包含历史数据，也可能不包含，并且应该跟踪每个slot的结果/交易。轻客户端服务器应该能够将事务提交到网络或验证者内存池。费用市场的一些讨论引入了轻客户端服务器作为无状态系统中的交易见证/状态提供者的概念。可以通过状态等机制引入激励措施，请参见上述费用市场部分。
 
-**Relayer**
+**Relayer 中继者**
 
-This term may or may not be deprecated. However, it is the actor which provides state data or witness data to a set of transactions. Older proposals gave the relayer additional responsibilities and power over blocks to be included. See Fee market discussion for more information.
+此术语不清楚是否会被弃用。但是，中继者为一组事务提供状态数据或见证数据。较早的提案在区块打包方面赋予了中继者更多的责权。更多信息请参见费用市场讨论。
 
 **Scout**
 
-Scout is an eth 2 phase 2 execution prototyping engine. It currently supports reading and outputting shard/beacon states in a YAML format and will be expanded to a client tool. See section on Scout.
+Scout是eth2阶段2执行原型引擎。目前支持以YAML格式读取和输出分片/信标状态，并将扩展为客户端工具。参见Scout部分。
 
-**State Provider**
+**State Provider 状态提供者**
 
-A suggestion for extended capabilities of light client servers. Users may open a state channel with a light client provider and pay to include the appropriate witness/state data needed for a stateless system. These actors can be defined as state providers.
+针对扩展轻客户端服务器功能的建议。用户可以与轻客户端提供者一起打开状态通道，并付费以打包无状态系统所需的见证/状态数据。这些参与者可以被定义为状态提供者。
 
-**Stateless**
+**Stateless 无状态**
 
-The basis for the current phase 2 proposals assume the entire system will be stateless. This means general clients or other nodes should be incentivized to provide state. The only state maintained within shards would be a state root at the end of each slot/block for each execution environment. Stateless systems can decrease complexity significantly in the process of shuffling validator nodes from shard to shard. This enables more security collectively across the system. Additionally, I/O requirements are significantly reduced and have acted as a bottleneck in computation/execution speed in the past. The theory around a stateless system suggests execution speed should increase significantly. Transactions would now have additional requirements. Each transaction would need to provide state data or witness data for the state it interacts/reads/edits. This can be verified/provided by including a merkle branch/proof in accordance with the shard execution environment’s current state root.
+当前阶段2提案的基础假设是整个系统将是无状态的。这意味着应该激励一般客户端或其他节点提供状态。分片中维护的唯一状态将是每个执行环境的每个slot/区块末尾的状态根。通过在分片间重组验证者节点，无状态系统可以大大降低复杂性，如此一来可以提高整个系统的安全性。此外，I / O过去是计算/执行速度的瓶颈，但目前可以大大降低其要求。无状态系统理论意味着应大大提升执行速度。事务也会有额外的要求，每个事务都需要为其交互/读取/编辑的状态提供状态数据或见证数据。可以根据分片执行环境的当前状态根添加默克尔分支/证明来对此进行验证/提供。
 
-**Switchover**
+**Switchover 过渡**
 
-Term to refer to the inevitable process of moving eth 1 into eth 2. There will need to be a community consensus on this switchover as current wallets, etc. interact with eth 1 as part of an eth 2 shard instead of the older POW chain.
+指将eth1迁移到eth2的必经过程。当前的钱包等设施与作为eth2的一个分片（而不是POW链）的eth1进行交互时，需要社区就此过程达成共识。
 
-**Witness Data**
+**Witness Data 见证数据**
 
-As part of a stateless system, witness data provides the state data a transaction needs. One may sumarize it as providing each transaction with its own database. Any state a stransaction reads/writes from must be provided as part of the witness data. The witness data provides a Merkle proof in accordance with a state root to verify the state included is correct.
+作为无状态系统的一部分，见证数据提供交易所需的状态数据。概括来说就是为每个事务提供自己的数据库。事务读取/写入的任何状态都必须包含为见证数据的一部分。见证数据根据状态根提供证明，以验证所打包状态的正确性。
 
-**Wasm-spawning-wasm**
+**Wasm-spawning-wasm Wasm派生wasm**
 
-In order to execute arbitrary user code \(e.g. smart contracts\) it is crucial for the node to provide functionality to execute wasm code blobs from inside an EE. This would likely mean that an executing wasm runtime would “spawn” a new wasm runtime to execute the user code. It may also provide the user code with additional host functions.
+为了执行任意用户代码（例如智能合约），节点必须提供从EE内部执行wasm代码blob的功能。这可能意味着执行中的wasm运行时将“派生”新的wasm运行时以执行用户代码，还可以为用户代码提供其他主机功能。
 
-**Umbrella execution environment**
+**Umbrella execution environment 伞执行环境**
 
-An umbrella execution environment takes advantage of wasm-spawning-wasm to allow users to deploy arbitrary code. It maintains the account structure and balance tracking to facilitate transactions to these user contracts.
+伞执行环境借助wasm-spawning-wasm来允许用户部署任意代码。维护帐户结构并且追踪余额，以促进与这些用户合约的交易。
 
