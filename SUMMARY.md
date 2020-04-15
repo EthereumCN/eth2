@@ -45,6 +45,5 @@
 * [迈向宁静Serenity](yan-shen-yue-du/mai-xiang-ning-jing-serenity.md)
 * [Phase 0 deepdive](yan-shen-yue-du/untitled-1.md)
 * [Phase 0 规范图示](yan-shen-yue-du/phase-0-gui-fan-tu-shi.md)
-* [Ethereum2.0 Reddit AMA](yan-shen-yue-du/ethereum2.0-reddit-ama.md)
 * [Vitalik奇思异想语录](yan-shen-yue-du/vitalik-qi-si-yi-xiang-yu-lu.md)
 
