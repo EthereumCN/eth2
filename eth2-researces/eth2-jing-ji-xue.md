@@ -15,7 +15,7 @@
 部分来源：[https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0\_beacon-chain.md](https://github.com/ethereum/eth2.0-specs/blob/master/specs/core/0_beacon-chain.md)
 
 * **验证者**：Casper/分片共识系统的参与者。质押32枚ETH即可成为此机制中的一名验证者。
-* **委员会：活跃验证者的伪随机采样子集。**
+* **委员会**：活跃验证者的伪随机采样子集。
 * **发行率（Issuance Rate）**：ETH供应量年均增长速率。
 * **收益率（Issuance）**：验证者年均奖励率。
 
