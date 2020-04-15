@@ -10,9 +10,9 @@ description: 以太坊正在迈向全新未来——Eth2。我们会在此跟进
 
 ![Eth2&#x5404;&#x9636;&#x6BB5;&#x9884;&#x671F;&#x8DEF;&#x7EBF;&#x56FE;](.gitbook/assets/0_gahxd3c3j_0nxnbw.png)
 
-## [Vitalik：Eth2路线图](https://twitter.com/VitalikButerin/status/1240365047421054976?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed&ref_url=https%3A%2F%2Fd-24557025992556481979.ampproject.net%2F2004142326360%2Fframe.html)
 
-![](.gitbook/assets/etaj8ruwaam1adg%20%281%29.jpg)
+
+![Vitalik&#xFF1A;Eth2&#x672A;&#x6765;5-10&#x5E74;&#x6280;&#x672F;&#x8DEF;&#x7EBF;&#x56FE;](.gitbook/assets/etaj8ruwaam1adg.jpg)
 
 ## Eth2的设计原则及目标
 
