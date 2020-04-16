@@ -50,8 +50,6 @@
 
 ## 费用
 
-Validators earn a cut of the transaction fees that people pay to use the network. However, due to a burn mechanism implemented in Phase 1, a majority of fees on the network will be burned and removed from total supply.
-
 目前验证者可以得到人们所支付的网络交易费用中的一部分。然而，由于在阶段1中将实施烧毁机制，网络上的大部分费用都将被烧毁，并从总供应量中扣除。
 
 ## 质押成本与风险
