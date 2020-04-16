@@ -88,5 +88,6 @@
 
 ## 其他资源
 
-* [ETH2 Staking Calculator](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120) 
+* Activate：[ETH2 Staking ](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1446566120)
+* StakeingRewards：[ETH2 Staking 收益计算器](https://www.stakingrewards.com/asset/ethereum-2-0)
 
