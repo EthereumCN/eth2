@@ -1,12 +1,13 @@
 # Table of contents
 
 * [ETH2.0概览](README.md)
+* [ETH2术语库](eth2-glossary.md)
 
-## ETH2里程碑
+## ETH2里程碑 <a id="eth2-phases"></a>
 
-* [Phase 0](eth2-li-cheng-bei/phase-0.md)
-* [Phase 1](eth2-li-cheng-bei/phase-1.md)
-* [Phase 2](eth2-li-cheng-bei/phase-2.md)
+* [Phase 0](eth2-phases/phase-0.md)
+* [Phase 1](eth2-phases/phase-1.md)
+* [Phase 2](eth2-phases/phase-2.md)
 
 ## ETH2.0 开发团队 <a id="teams-building-eth2"></a>
 
@@ -20,12 +21,12 @@
 * [Trinity](teams-building-eth2/trinity.md)
 * [Yeeth](teams-building-eth2/yeeth.md)
 
-## 研究室 <a id="eth2-researces"></a>
+## 研究室 <a id="eth2-researches"></a>
 
-* [Casper Proof-of-Stake](eth2-researces/casper.md)
-* [Sharding 分片](eth2-researces/https-knol.ethereum.cn-research-and-developement-sharding.md)
-* [Eth2经济学](eth2-researces/eth2-jing-ji-xue.md)
-* [Eth1-&gt;Eth2 迁移](eth2-researces/eth2-migration.md)
+* [Casper Proof-of-Stake](eth2-researches/casper.md)
+* [Sharding 分片](eth2-researches/https-knol.ethereum.cn-research-and-developement-sharding.md)
+* [Eth2经济学](eth2-researches/eth2-jing-ji-xue.md)
+* [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
 
 ## 新闻间 <a id="news"></a>
 
@@ -40,8 +41,8 @@
 * [ETH 1.x](history-future/eth-1.x.md)
 * [ETH 3](history-future/eth3.0.md)
 
-## 延伸阅读
+## 延伸阅读 <a id="extended-resources"></a>
 
-* [Phase 0 deepdive](yan-shen-yue-du/untitled-1.md)
-* [Phase 0 规范图示](yan-shen-yue-du/phase-0-gui-fan-tu-shi.md)
+* [Phase 0 deepdive](extended-resources/untitled-1.md)
+* [Phase 0 规范图示](extended-resources/phase-0-gui-fan-tu-shi.md)
 
