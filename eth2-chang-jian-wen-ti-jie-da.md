@@ -28,25 +28,25 @@ _More information about Proof of Stake & Shard Chains:_ [_**What is Ethereum 2.0
 
 _More information about the Ethereum 2.0 roadmap:_ [_**A Short History of Ethereum**_](https://consensys.net/blog/blockchain-explained/a-short-history-of-ethereum/) _&_ [_**What is Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
 
-**以太坊2.0实现之后会带来什么改变？**
+### **以太坊2.0实现之后会带来什么改变？**
 
 2.0升级会大大提升以太坊公共主网的**扩容性、吞吐量和安全性**。以太坊2.0不会抹去1.0链上的任何数据历史、交易记录以及资产所有权。信标链作为以太坊2.0的核心，将与现有的1.0链并行运行，以确保连贯性。关于Eth1和Eth2的区别，我们可以将其类比公路和高速公路。
 
 _More information about the distinctions between 1.0 and 2.0:_ [_**What is Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
 
-**以太坊1.0链会发生什么？**
+### **以太坊1.0链会发生什么？**
 
-The current plan is for the Ethereum 1.0 chain to effectively become the first shard on Ethereum 2.0 when Phase 1 launches. Until then, the Ethereum 1.0 chain will continue as it is now and will undergo improvements to enable it to eventually be an Ethereum 2.0 shard.
+按照目前的计划，在阶段1中以太坊1.0链会成为以太坊2.0的首个分片。在那之前，以太坊1.0链会如常运行，同时还会经历一些升级，以便最终成功合并为以太坊2.0的分片。
 
 _More information about the future of Ethereum’s current chain:_ [_**Eth1 to Eth 2 Transition Metaphor**_](https://twitter.com/JimmyRagosa/status/1189917753907535873?s=19)
 
-What is the release date of Ethereum 2.0?
+### **以太坊2.0的上线日期？**
 
-Phase 0 of Ethereum 2.0 will launch in 2020. Phase 1 is anticipated in 2021. Phase 2 and beyond are anticipated for 2021 or later.
+阶段0会在2020年实现，阶段1计划于2021年上线，阶段2及其之后阶段计划在2021年及之后推出。
 
 _More information about the launch of Ethereum 2.0:_ [_**What is Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
 
-What is Ethereum Proof of Stake?
+### **以太坊的Proof of Stake \(权益证明\) 是什么？**
 
 Proof of Stake \(PoS\) is an upgrade from Ethereum 1.0’s current Proof of Work consensus model and allows for improved security and scalability. PoS is a consensus mechanism that relies on validators and staked ETH for the continuation of blocks on the blockchain, and is necessary for sharding. Validators are people who elect to continue the blockchain by depositing \(or “staking”\) 32 ETH into the deposit contract. On a continuous basis, validators are randomly selected from the pool of all validators to be given the opportunity to create the next block. Should a validator successfully validate a block, they will receive an ETH reward. If a validator attempts to compromise the truthful continuation of the blockchain, their deposit will be ‘slashed’ – meaning they will lose some or all of their 32 staked ETH.
 
@@ -54,7 +54,7 @@ A Proof of Stake mechanism offers more crypto-economic security compared to the 
 
 _More information about the launch of Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/) _&_ [_**The Proof of Stake FAQ**_](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ)
 
-Can I “buy” Ethereum 2.0 ether?
+### 我可以购买以太坊2.0中的ETH吗？
 
 There is no way to buy Ethereum 2.0 ether, since there will not be a new type of ETH token. Instead, users will deposit ETH in the Ethereum 2.0 deposit contract. Right now, this is planned to be a one-way, non-reversible transaction.
 
@@ -62,7 +62,7 @@ There are two ways ETH holders can participate and earn rewards for staking on E
 
 _More information about staking on Ethereum 2.0:_ [_**What Happens to my ETH on Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-happens-to-my-eth-on-ethereum-2/)
 
-How can I become a validator for Ethereum 2.0?
+### 如何成为以太坊2.0中的验证者？
 
 The switch from Proof of Work to Proof of Stake will create a unique revenue-generating capability for ETH holders. ETH holders can become validators on the Ethereum network and stake their ETH in order to receive rewards when they successfully validate and attest a new block.
 
@@ -70,7 +70,7 @@ One can become a validator on the Ethereum 2.0 network by depositing 32 ETH. Thi
 
 _More information about becoming a validator on Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/)
 
-How do you get rewarded for staking on Ethereum 2.0?
+### 在以太坊2.0中Staking如何获得奖励？
 
 As a validator on Ethereum 2.0, you get rewarded for proposing and attesting the next block in the chain. You will receive rewards in ETH for making valid proposals and attestations.
 
@@ -80,19 +80,19 @@ Rewards minus penalties are transferred to validators every epoch \(384 seconds 
 
 _More information about rewards on Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/) _&_ [_**The Eth2 Calculator**_](https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=1548910165)
 
-What are the risks of staking ETH and becoming a validator on Ethereum 2.0?
+### 成为验证者和质押ETH的风险有哪些？
 
 An upside to participating as a validator is that you can earn rewards of ETH. There is, however, a risk of losing funds through the ‘slashing’ of the ETH you staked on the network. With a small amount of care, this risk is negligible. The first way a validator might lose funds is by being offline and not performing its duties correctly. This incurs a relatively mild penalty: roughly the same as the reward you could have made. As long as you are currently participating for at least 50% of the time, you will not lose your stake. The other way a validator can lose funds is to publish contradictory information about the chain. In this case, the validator is slashed and ejected from the system. The amount slashed is between 1 ETH and the entire stake amount, depending on other factors. Being slashed is easy to protect against and ought never to happen unless a validator is deliberately acting maliciously.
 
 _More information about risk incentives on Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/)
 
-How do I get selected to propose and attest a new block on the Beacon Chain?
+### 在信标连中我如何被选中提议或是证明新区块？
 
 After you have registered your 32 ETH stake in the deposit contract and your validator has become active, it will be assigned duties from time to time by the Beacon Chain. Validators will be called on to attest to blocks on the Beacon Chain once every 6.4 minutes \(once per epoch\), and randomly selected from the whole validator set to propose blocks periodically. If there are 100,000 validators in total, your validator will be asked to propose a block about once every two weeks on average. This is all completely automatic and entirely handled by the validator software.
 
 _More information about attesting blocks on the Beacon Chain:_ [_**What is Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
 
-What will happen to the ETH I own now?
+### 我现在所持有的ETH会怎么样？
 
 There is no need to do anything special with the ETH you currently own. It continues to be fully usable on the Ethereum 1.0 chain. At some point, the Ethereum 1.0 chain will become part of Ethereum 2.0, and your ETH will continue to function just as it does now, with no action required on your part.
 
@@ -100,13 +100,13 @@ For those who want to participate in staking, you can choose to become a validat
 
 _More information about ETH:_ [_**What Happens to my ETH on Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-happens-to-my-eth-on-ethereum-2/)
 
-Who is developing Ethereum 2.0?
+### 谁在开发以太坊2.0？
 
 Hundreds of people! The work is largely led and coordinated by the Ethereum Foundation research team, but many other research and implementation teams are making substantial contributions. The main work is to collaborate on defining the specification for Ethereum 2.0, which is maintained on the[ Ethereum Foundation GitHub pages](https://github.com/ethereum/eth2.0-specs). Seven independent teams are building Ethereum 2.0 clients in a variety of different programming languages for different use cases and are constantly feeding back into the design and specifications.
 
-_More information about the people behind Ethereum 2.0:_ [_**What’s New in Eth2?**_](https://hackmd.io/@benjaminion/eth2_news)
+_More information about the people behind Ethereum 2.0:_ [_**What’s New in Eth2**_](https://hackmd.io/@benjaminion/eth2_news)
 
-What is the history of upgrades to the Ethereum blockchain?
+### 以太坊区块链此前经历过哪些升级？
 
 Ethereum has undergone four planned upgrades since its public mainnet launch in July 2015 \(called “Homestead”\). In order the four upgrades were: Homestead \(March 2016\), Metropolis Byzantium \(October 2017\), Metropolis Constantinople \(February 2019\), and Istanbul \(December 2019\). Together, these upgrades improved the functionality of the Ethereum 1.0 chain while setting the stage for Ethereum 2.0
 
