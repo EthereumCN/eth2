@@ -36,6 +36,10 @@
   * [Reddit](news/eth2-ama/eth2-reddit-ama.md)
   * [Gitcoin Media](news/eth2-ama/gitcoin-media-ama.md)
 
+---
+
+* [Eth2常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
+
 ## 继往，开来 <a id="history-future"></a>
 
 * [ETH 1.x](history-future/eth-1.x.md)
