@@ -25,8 +25,10 @@
 
 * [Casper Proof-of-Stake](eth2-researches/casper.md)
 * [Sharding 分片](eth2-researches/https-knol.ethereum.cn-research-and-developement-sharding.md)
-* [Eth2经济学](eth2-researches/eth2-jing-ji-xue.md)
+* [Eth2 经济学](eth2-researches/eth2-jing-ji-xue.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
+* [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an.md)
+* [Eth2常见问题解答](eth2-researches/eth2-chang-jian-wen-ti-jie-da.md)
 
 ## 新闻间 <a id="news"></a>
 
@@ -35,10 +37,6 @@
 * [Eth2 AMA](news/eth2-ama/README.md)
   * [Reddit](news/eth2-ama/eth2-reddit-ama.md)
   * [Gitcoin Media](news/eth2-ama/gitcoin-media-ama.md)
-
----
-
-* [Eth2常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
 
 ## 继往，开来 <a id="history-future"></a>
 
