@@ -84,21 +84,21 @@ _More information about rewards on Ethereum 2.0:_ [_**What is Proof of Stake?**_
 
 ### 成为验证者和质押ETH的风险有哪些？
 
-An upside to participating as a validator is that you can earn rewards of ETH. There is, however, a risk of losing funds through the ‘slashing’ of the ETH you staked on the network. With a small amount of care, this risk is negligible. The first way a validator might lose funds is by being offline and not performing its duties correctly. This incurs a relatively mild penalty: roughly the same as the reward you could have made. As long as you are currently participating for at least 50% of the time, you will not lose your stake. The other way a validator can lose funds is to publish contradictory information about the chain. In this case, the validator is slashed and ejected from the system. The amount slashed is between 1 ETH and the entire stake amount, depending on other factors. Being slashed is easy to protect against and ought never to happen unless a validator is deliberately acting maliciously.
-
-成为验证者的一个好处在于可以获得ETH收益，但是也会有被“罚没” \(slashing\) 的风险，从而损失ETH质押金。但是只要投入少量精力，就可以避免这种风险。验证者可能遭到罚没的第一种情况：离线或未正确履行验证者职责。这种情况下的惩罚较轻，基本上等同于你本可以获得的奖励。只要保持50%以上的时间在线，
+成为验证者的一个好处在于可以获得ETH收益，但是也会有被“罚没” \(slashing\) 的风险，从而损失ETH质押金。但是只要投入少量精力，就可以避免这种风险。验证者可能遭到罚没的第一种情况：离线或未正确履行验证者职责。这种情况下的惩罚较轻，基本上等同于你本可以获得的奖励。只要保持至少50%以上的时间在线参与验证工作，就不会产生损失。验证者可能遭到罚没的另一种情况：发布相冲突的区块链信息。在这种情况下，验证者会遭到罚没，并且被驱逐出系统。罚没金额最低为1 ETH，最高为全部质押金额，具体金额取决于实际情况。如果验证者并非有意作恶，其实罚没惩罚是很容易避免的，并且发生几率较低。
 
 _More information about risk incentives on Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/)
 
 ### 在信标链中我如何被选中提议或是证明新区块？
 
-After you have registered your 32 ETH stake in the deposit contract and your validator has become active, it will be assigned duties from time to time by the Beacon Chain. Validators will be called on to attest to blocks on the Beacon Chain once every 6.4 minutes \(once per epoch\), and randomly selected from the whole validator set to propose blocks periodically. If there are 100,000 validators in total, your validator will be asked to propose a block about once every two weeks on average. This is all completely automatic and entirely handled by the validator software.
+在存款合约里存入了32 ETH的质押金之后，你的验证者就会被激活，信标链会向验证者分配工作。验证者们每6.4分钟 \(每个epoch一次\) 需要对信标链上的区块进行证明 \(attest\)，而对区块进行提议 \(propose\) 的验证者会从整个验证者集中周期性地随机选择出来。假设总共有10万名验证者，那么你的验证者平均每两周会被要求进行一次区块提议。这完全是在验证者软件中自动进行的。
 
 _More information about attesting blocks on the Beacon Chain:_ [_**What is Ethereum 2.0?**_](https://consensys.net/blog/blockchain-explained/what-is-ethereum-2/)
 
 ### 我现在所持有的ETH会怎么样？
 
 There is no need to do anything special with the ETH you currently own. It continues to be fully usable on the Ethereum 1.0 chain. At some point, the Ethereum 1.0 chain will become part of Ethereum 2.0, and your ETH will continue to function just as it does now, with no action required on your part.
+
+
 
 For those who want to participate in staking, you can choose to become a validator on the Ethereum 2.0 beacon chain by depositing your ETH into the validator deposit contract on the Ethereum 1.0 chain. It then becomes a validator balance on the Ethereum 2.0 beacon chain. This process is non-reversible. Transfers are disabled during Phase 0 so validators will have to wait until Phase 2 until withdraws to a specific shard are possible, at which point your ETH stake and the rewards accrued will be fully usable within Ethereum 2.0.
 
