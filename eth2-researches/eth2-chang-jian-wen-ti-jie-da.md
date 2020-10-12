@@ -86,11 +86,11 @@ _More information about rewards on Ethereum 2.0:_ [_**What is Proof of Stake?**_
 
 An upside to participating as a validator is that you can earn rewards of ETH. There is, however, a risk of losing funds through the ‘slashing’ of the ETH you staked on the network. With a small amount of care, this risk is negligible. The first way a validator might lose funds is by being offline and not performing its duties correctly. This incurs a relatively mild penalty: roughly the same as the reward you could have made. As long as you are currently participating for at least 50% of the time, you will not lose your stake. The other way a validator can lose funds is to publish contradictory information about the chain. In this case, the validator is slashed and ejected from the system. The amount slashed is between 1 ETH and the entire stake amount, depending on other factors. Being slashed is easy to protect against and ought never to happen unless a validator is deliberately acting maliciously.
 
-成为验证者的一个在于可以获得ETH奖励。
+成为验证者的一个好处在于可以获得ETH收益，但是也会有被“罚没” \(slashing\) 的风险，从而损失ETH质押金。但是只要投入少量精力，就可以避免这种风险。验证者可能遭到罚没的第一种情况：离线或未正确履行验证者职责。这种情况下的惩罚较轻，基本上等同于你本可以获得的奖励。只要保持50%以上的时间在线，
 
 _More information about risk incentives on Ethereum 2.0:_ [_**What is Proof of Stake?**_](https://consensys.net/blog/blockchain-explained/what-is-proof-of-stake/)
 
-### 在信标连中我如何被选中提议或是证明新区块？
+### 在信标链中我如何被选中提议或是证明新区块？
 
 After you have registered your 32 ETH stake in the deposit contract and your validator has become active, it will be assigned duties from time to time by the Beacon Chain. Validators will be called on to attest to blocks on the Beacon Chain once every 6.4 minutes \(once per epoch\), and randomly selected from the whole validator set to propose blocks periodically. If there are 100,000 validators in total, your validator will be asked to propose a block about once every two weeks on average. This is all completely automatic and entirely handled by the validator software.
 

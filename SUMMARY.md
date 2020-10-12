@@ -14,12 +14,11 @@
 * [Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
 * [ChainSafe](teams-building-eth2/chainsafe.md)
 * [PegaSys](teams-building-eth2/pegasys.md)
-* [Harmony](teams-building-eth2/harmony.md)
-* [Parity Technologies](teams-building-eth2/parity.md)
 * [Sigma Prime](teams-building-eth2/sigma-prime.md)
 * [Status](teams-building-eth2/status.md)
+* [Harmony](teams-building-eth2/harmony.md)
 * [Trinity](teams-building-eth2/trinity.md)
-* [Yeeth](teams-building-eth2/yeeth.md)
+* [Parity Technologies](teams-building-eth2/parity.md)
 
 ## 研究室 <a id="eth2-researches"></a>
 
