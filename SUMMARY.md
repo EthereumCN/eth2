@@ -26,7 +26,10 @@
 * [Sharding 分片](eth2-researches/https-knol.ethereum.cn-research-and-developement-sharding.md)
 * [Eth2 经济学](eth2-researches/eth2-jing-ji-xue.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
-* [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an.md)
+* [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/README.md)
+  * [状态通道（State Channels）](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/state-channels.md)
+  * [Optimistic Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/optimistic-rollups.md)
+  * [ZK-Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/zk-rollups.md)
 
 ## 新闻间 <a id="news"></a>
 
