@@ -4,13 +4,13 @@ description: State Channels
 
 # 状态通道
 
-### 状态通道是什么？
+## 状态通道是什么？
 
 状态通道这一简单且广泛的扩容方案，将发生在区块链上的交互转为链下进行，并且不会增加任意参与者的风险。该策略最著名的应用范例就是比特币的支付通道（payment channels），它允许交易双方之间直接发送即时的、免手续费的支付交易。
 
 状态通道与比特币闪电网络（Lightning Network）中的支付通道概念非常相似，但状态通道不仅支持发送支付，还支持一般的“状态更新“（state updates）。例如，用户可以在合约中存入资金，然后对状态更新进行签名，这一行为就像国际象棋中的走法。之后，只有游戏结束后，游戏的最终结果才会被广播到以太坊网络上。这允许以太坊应用程序将交易“转移”到链下，增加了整个网络的有用性。
 
-### 状态通道的工作原理是什么？ <a id="how-do-state-channels-work"></a>
+## 状态通道的工作原理是什么？
 
 状态通道的工作原理是将区块链状态的某些部分 "锁定 "到一个多签名合约中，由一组确定的参与者控制。而被 "锁定 "的状态被称为“状态存款”（state deposit）。例如，这可能是一笔ETH或ERC20代币，但也可能是NFT或ENS域名。
 
@@ -28,7 +28,7 @@ description: State Channels
 
 如果参与者之间更新的“状态”是数字货币余额，那么我们将拥有一个支付通道。 打开和关闭通道的步骤1和步骤3，涉及区块链上的操作。但在步骤2中一个无限数量的更新可以迅速而不需要涉及到区块链——这就是状态通道发挥作用的地方，因为只有步骤1和3需要被发布到网络、支付费用，或等待确认。事实上，经过精心的规划和设计，状态通道可以几乎无限期地保持开放，并被用作更广泛的用途，为整个经济或生态系统提供动力。
 
-### 状态通道和侧链的区别 <a id="difference-between-state-channels-and-sidechains"></a>
+## 状态通道和侧链的对比
 
 #### 状态通道的优点 <a id="state-channel-pros"></a>
 
@@ -52,11 +52,11 @@ description: State Channels
 * 侧链需要大量的初始投资：为了创建侧链，我们需要有足够的矿工，这样才能保证网络的安全。 同时，我们必须确保它们能够正常运行。而状态通道中不涉及区块链上的操作，所以，不需要这样的要求。
 * 侧链需要一个联盟（Federation）：这在主链和侧链之间增加了另一层。攻击者可以通过攻击或者贿赂联盟来攻击侧链。而在状态通道中，我们只需要一个智能合同来做这些。
 
-### 状态通道的团队有哪些？ <a id="who-is-working-on-state-channels"></a>
+## 状态通道的团队有哪些？
 
-目前状态通道的团队有：[CelerX](https://celerx.app/) _、_[Connext Network](https://connext.network/)、 [State Channels](https://statechannels.org/) _、_[Perun](https://perun.network/)。
+目前状态通道的团队有：[CelerX](https://celerx.app/) _、_[Connext Network](https://connext.network/)、 [State Channels](https://statechannels.org/) _、_[Perun](https://perun.network/)
 
-### 参考资料 <a id="resources"></a>
+## 参考资料
 
 * 来源：[EthHub](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/)
 * [State Channels - an explanation](https://www.jeffcoleman.ca/state-channels/)
