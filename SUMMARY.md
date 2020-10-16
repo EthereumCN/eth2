@@ -28,9 +28,9 @@
 * [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
 * [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/README.md)
   * [Plasma](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/plasma.md)
-  * [状态通道（State Channels）](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/state-channels.md)
-  * [Optimistic Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/optimistic-rollups.md)
   * [ZK-Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/zk-rollups.md)
+  * [Optimistic Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/optimistic-rollups.md)
+  * [状态通道](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/state-channels.md)
 
 ## 新闻间 <a id="news"></a>
 
