@@ -1,12 +1,12 @@
 ---
-description: BLOCKCHAIN & CYBERSECURITY EXPERTISE
+description: 基于 Rust 语言的客户端
 ---
 
-# Sigma Prime
+# Lighthouse \(Sigma Prime\)
 
 ## 简介
 
-Sigma Prime 成立于3年前，主要专注于提供区块链技术与信息安全服务。       这个团队集研究者、开发者和学者于一体，大家都对区块链和网络安全空间深感兴趣。他们致力于各种社区项目，以帮助区块链生态发光发热。
+Sigma Prime 成立于3年前，主要专注于提供区块链技术与信息安全服务。这个团队集研究者、开发者和学者于一体，大家都对区块链和网络安全空间深感兴趣。他们致力于各种社区项目，以帮助区块链生态发光发热。
 
 ## Lighthouse客户端
 
@@ -39,10 +39,6 @@ description: BLOCKCHAIN & CYBERSECURITY EXPERTISE
 * [Github](https://github.com/sigp/lighthouse)
 * [推特](https://twitter.com/sigp_io)
 * [博客](https://blog.sigmaprime.io/)
-
-## 推特
-
-{% embed url="https://twitter.com/sigp\_io" %}
 
 
 

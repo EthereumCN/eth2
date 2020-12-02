@@ -4,26 +4,38 @@
 * [ETH2术语库](eth2-glossary.md)
 * [Eth2常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
 
-## ETH2里程碑 <a id="eth2-phases"></a>
+## ETH2.0客户端 <a id="teams-building-eth2"></a>
 
-* [Phase 0](eth2-phases/phase-0.md)
-* [Phase 1](eth2-phases/phase-1.md)
-* [Phase 2](eth2-phases/phase-2.md)
+* [Prysm \(Prysmatic Labs\)](teams-building-eth2/prysmatic-labs.md)
+* [Teku \(ConsenSys\)](teams-building-eth2/pegasys.md)
+* [Lighthouse \(Sigma Prime\)](teams-building-eth2/sigma-prime.md)
+* [Nimbus \(Status\)](teams-building-eth2/status.md)
 
-## ETH2.0客户端团队 <a id="teams-building-eth2"></a>
+## Staking
 
-* [Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
-* [ChainSafe](teams-building-eth2/chainsafe.md)
-* [PegaSys](teams-building-eth2/pegasys.md)
-* [Sigma Prime](teams-building-eth2/sigma-prime.md)
-* [Status](teams-building-eth2/status.md)
-* [Nethermind](teams-building-eth2/harmony.md)
-* [Trinity](teams-building-eth2/trinity.md)
+* [概览](staking/gai-lan.md)
+* [通识](staking/tong-shi/README.md)
+  * [理论](staking/tong-shi/li-lun/README.md)
+    * [PoS vs. PoW](staking/tong-shi/li-lun/pos-vs.-pow.md)
+    * [验证哲学](staking/tong-shi/li-lun/yan-zheng-zhe-xue.md)
+    * [设计哲学](staking/tong-shi/li-lun/she-ji-zhe-xue.md)
+  * [密钥](staking/tong-shi/mi-yao.md)
+  * [共识](staking/tong-shi/gong-shi.md)
+  * [创世事件](staking/tong-shi/chuang-shi-shi-jian.md)
+  * [存款过程](staking/tong-shi/cun-kuan-guo-cheng.md)
+  * [奖惩机制](staking/tong-shi/jiang-cheng-ji-zhi.md)
+  * [证明](staking/tong-shi/zheng-ming.md)
+* [教程](staking/jiao-cheng/README.md)
+  * [测试网质押教程](staking/jiao-cheng/ce-shi-wang-zhi-ya-jiao-cheng.md)
+  * [主网质押教程](staking/jiao-cheng/zhu-wang-zhi-ya-jiao-cheng.md)
+* [FAQ](staking/faq.md)
+* [资源](staking/zi-yuan.md)
 
 ## 研究室 <a id="eth2-researches"></a>
 
 * [Casper Proof-of-Stake](eth2-researches/casper.md)
 * [Sharding 分片](eth2-researches/https-knol.ethereum.cn-research-and-developement-sharding.md)
+* [EIP](eth2-researches/eip.md)
 * [Eth2 经济学](eth2-researches/eth2-jing-ji-xue.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
 * [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/README.md)

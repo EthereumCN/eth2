@@ -2,7 +2,7 @@
 description: 基于 Java 语言的客户端
 ---
 
-# PegaSys
+# Teku \(ConsenSys\)
 
 ## 团队
 
@@ -26,10 +26,4 @@ PegaSys 是 ConsenSys 的一支50人工程团队，曾在英国区块链协会�
 * [Github](https://github.com/PegaSysEng/artemis)
 * [Gitter](https://gitter.im/PegaSysEng/artemis)
 * [Twitter](https://twitter.com/pegasyseng)
-
-## 推特
-
-{% embed url="https://twitter.com/pegasyseng" %}
-
-
 

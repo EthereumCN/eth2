@@ -2,7 +2,7 @@
 description: 基于 Nim 语言的客户端
 ---
 
-# Status
+# Nimbus \(Status\)
 
 ## 简介
 
@@ -35,10 +35,6 @@ Status 的 Nimbus 团队目前在用 Nim 语言建立 libp2p，这是一个允�
 * [网站](https://nimbus.status.im/)
 * [Github](https://github.com/status-im/nimbus)
 * [Twitter](https://twitter.com/ethstatus)
-
-## 实时推特
-
-{% embed url="https://twitter.com/ethstatus" %}
 
 
 

@@ -1,8 +1,10 @@
 ---
-description: 我们为以太坊扩容努力着。
+description: 基于 Go 语言的客户端
 ---
 
-# Prysmatic Labs
+# Prysm \(Prysmatic Labs\)
+
+## 团队成员加一栏推特指引，按照此模板完善后面的客户端
 
 ## 简介
 
@@ -53,16 +55,20 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
       <td style="text-align:left">&#x6570;&#x636E;&#x5E93;</td>
       <td style="text-align:left">BoltDB&#xFF0C;&#x4E00;&#x79CD;&#x4E66;&#x5199;&#x4F18;&#x5316;&#x7684;&#x6301;&#x4E45;&#x952E;&#x503C;&#x5B58;&#x50A8;</td>
     </tr>
+    <tr>
+      <td style="text-align:left">&#x6280;&#x672F;&#x66F4;&#x65B0;</td>
+      <td style="text-align:left"><a href="https://github.com/prysmaticlabs/prysm">Github</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">&#x52A8;&#x6001;&#x66F4;&#x65B0;</td>
+      <td style="text-align:left"><a href="https://medium.com/prysmatic-labs">&#x4E3B;&#x9875;</a>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-#### 客户端更新动态
-
-{% embed url="https://medium.com/prysmatic-labs" %}
-
 ## 团队成员
-
-#### 
 
 #### Raul Jordan ：团队leader，Thiel Fellow基金得者，以太坊开发者
 
@@ -96,10 +102,6 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
 * [Github](https://github.com/prysmaticlabs/prysm)
 * [博客](https://medium.com/prysmatic-labs)
 * [推特 ](https://twitter.com/prylabs)
-
-## 即时推特
-
-{% embed url="https://twitter.com/prylabs" %}
 
 
 
