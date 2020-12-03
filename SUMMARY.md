@@ -1,15 +1,15 @@
 # Table of contents
 
-* [ETH2.0概览](README.md)
-* [ETH2术语库](eth2-glossary.md)
+* [Eth2 概览](README.md)
+* [Eth2 术语库](eth2-glossary.md)
 * [Eth2常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
 
-## ETH2.0客户端 <a id="teams-building-eth2"></a>
+## ETH2 客户端 <a id="teams-building-eth2"></a>
 
-* [Prysm \(Prysmatic Labs\)](teams-building-eth2/prysmatic-labs.md)
-* [Teku \(ConsenSys\)](teams-building-eth2/pegasys.md)
-* [Lighthouse \(Sigma Prime\)](teams-building-eth2/sigma-prime.md)
-* [Nimbus \(Status\)](teams-building-eth2/status.md)
+* [Prysm（Prysmatic Labs）](teams-building-eth2/prysmatic-labs.md)
+* [Teku（ConsenSys）](teams-building-eth2/pegasys.md)
+* [Lighthouse（Sigma Prime）](teams-building-eth2/sigma-prime.md)
+* [Nimbus（Status）](teams-building-eth2/status.md)
 
 ## Staking
 

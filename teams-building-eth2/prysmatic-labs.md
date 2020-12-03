@@ -2,7 +2,7 @@
 description: 基于 Go 语言的客户端
 ---
 
-# Prysm \(Prysmatic Labs\)
+# Prysm（Prysmatic Labs）
 
 ## 团队成员加一栏推特指引，按照此模板完善后面的客户端
 

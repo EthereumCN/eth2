@@ -2,7 +2,7 @@
 description: 基于 Nim 语言的客户端
 ---
 
-# Nimbus \(Status\)
+# Nimbus（Status）
 
 ## 简介
 

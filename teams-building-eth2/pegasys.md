@@ -2,7 +2,7 @@
 description: 基于 Java 语言的客户端
 ---
 
-# Teku \(ConsenSys\)
+# Teku（ConsenSys）
 
 ## 团队
 

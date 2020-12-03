@@ -2,7 +2,7 @@
 description: 基于 Rust 语言的客户端
 ---
 
-# Lighthouse \(Sigma Prime\)
+# Lighthouse（Sigma Prime）
 
 ## 简介
 
