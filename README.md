@@ -1,12 +1,45 @@
 ---
-description: 以太坊正在迈向全新未来——Eth2。我们会在此跟进以太坊2.0的最新研发进展以及开发团队等相关信息。
+description: 本页面跟进以太坊2.0的最新路线图、研发进展以及开发团队等相关信息。
 ---
 
 # ETH2.0概览
 
-## 修改（近况回顾+路线图变化）
+## 以太坊2.0路线图（新）
 
-1.v神路线图替代；2.以rollup为中心；3.AMA总结
+2020年10月，Vitalik Buterin 在 ethereum magicians 论坛发文阐释了“[以rollup为中心的以太坊路线图](https://news.ethereum.cn/a-rollup-centric-ethereum-roadmap/)”，提出了“少数执行分片+layer2”的发展路线。
+
+2020年11月，以太坊基金会研究团队在 Reddit 论坛进行的[第五次AMA](https://www.reddit.com/r/ethereum/comments/jvkoat/ama_we_are_the_efs_eth_20_research_team_pt_5_18/?utm_source=share&utm_medium=web2x&context=3)（[中文编译版](https://news.ethereum.cn/ama-we-are-the-efs-eth-20-research-team-pt-5-18/)）中给出了以太坊2.0的新路线图，总的来说可以看作是**“可执行PoS信标链+数据分片+layer2”**的架构，以下信息摘自该次AMA：
+
+[Vitalik 关于路线图的阐释：](https://www.reddit.com/r/ethereum/comments/jvkoat/ama_we_are_the_efs_eth_20_research_team_pt_5_18/gcpqmp1?utm_source=share&utm_medium=web2x&context=3)
+
+1. **以Rollup为中心的路线图。**将“阶段1”\(Phase 1\) 简化为数据分片 \(供rollups使用\)，使其更易于实现。
+2. **简化eth1和eth2的合并。**大致是根据这份路线图而来，但是现在 1\) eth1交易能够直接在信标链上进行，而不是分片; 2\) 得亏optimistic执行，合并期间的执行中断时间可能会被大大缩短。这使得合并过程被简化，目前已经开始PoC阶段。
+3. **各阶段并行进行。**这是最新的计划，也许 \(其重要性\) 也是最被低估的。可以分成 1\) 轻客户端支持; 2\) 数据分片 \(也即“阶段1”\); 3\) eth1和eth2的合并，这三个过程将独立推进，从而使得每个部分能够被独立实现，而不需要考虑其他部分的研发进度。
+
+这些所有改变的初衷都是为了加快eth2真正可用的进程。轻客户端的支持可能会在分片之前实现，使得信标链能快速可用 \(为eth1提供共识\)。经过简化的合并过程意味着eth1和eth2的合并会比之前预设的要快。各阶段并行进行，可以进一步加速合并，甚至有可能在分片实现之前就能进行合并。
+
+作为rollup中心策略的一部分，“阶段2” \(phase 2, 也即分片执行\) 目前来看没有那么重要。主要是因为阶段2的终极目标 \(即实现高TPS\) 能够在数据分片 \(阶段1\) + rollups的基础上实现，甚至效果更好。而分片+rollups会在阶段2之前实现，因此目前在这个部分集中精力是更好的选择。也就是说，我们不会采取任何不可逆的举动，使得在将来无法添加本地分片执行功能。如果将来有需要的话，这个路线图能够随时兼容分片执行功能。
+
+[Justin Drake 对交付顺序的评论：](https://www.reddit.com/r/ethereum/comments/jvkoat/ama_we_are_the_efs_eth_20_research_team_pt_5_18/gcps4a9/?utm_source=share&utm_medium=web2x&context=3)
+
+Phase 0（PoS）→Phase 0.5（轻客户端）→Phase 1（数据分片）→Phase 1.5（eth1和eth2合并） →Phase 2（内置VM）
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### **新路线图的变化**
+
+1. 阶段1简化为数据分片，将其作为rollup或是其他layer2方案的数据可用性层
+2. 信标链将具备执行功能，当前以太坊主链能够直接合并到以太坊2.0链中，不再以分片形式并入
+3. 轻客户端、分片以及eth1和eth2的合并工作将并行推进，不再顺次实现
+4. 暂时搁置阶段2，但是保留分片执行的可能性。
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### **Vitalik在推特更新了以太坊2.0的研发路线和进展**
+
+![&#x6765;&#x6E90;&#xFF1A;https://twitter.com/VitalikButerin/status/1333922620857745408](.gitbook/assets/wei-xin-tu-pian-20201203163025.jpg)
+
+## 以太坊2.0路线图（旧）
 
 以太坊下一步的重要网络升级称为 Ethereum 2.0，eth2 或 Serenity，将带来分片 \(Sahrding\)、权益证明共识机制 \(Proof of Stake\)、新虚拟机 \(eWASM\)等重大改变。
 
@@ -138,7 +171,7 @@ Vitalik Buterin给出的[Ethereum 2.0设计原则](https://notes.ethereum.org/9l
 * [Sharding Roadmap](https://github.com/ethereum/wiki/wiki/Sharding-roadmap#roadmap)
 * [Ethereum 2.0 Devs Handbook](https://notes.ethereum.org/@serenity/handbook#-Ethereum-20-Devs-Handbook-and-FAQs)
 
-## 温馨提示
+#### 提示
 
-由于以太坊基金会团队和第三方团队的相关信息更新频繁，因此许多文档都将不定时更新，请留意我们的最新跟踪。
+由于以太坊基金会团队和第三方团队的相关信息更新频繁，因此许多文档都将不定时更新。
 
