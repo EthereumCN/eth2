@@ -96,8 +96,6 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
 * SpankChain资助2.5万美元
 * [Gitcoin资助](https://gitcoin.co/grants/24/prysm-by-prysmatic-labs)
 
-
-
 ## 资源
 
 * [网站](https://prysmaticlabs.com/)
