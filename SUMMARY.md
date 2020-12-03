@@ -36,7 +36,7 @@
 * [Casper Proof-of-Stake](eth2-researches/casper.md)
 * [Sharding 分片](eth2-researches/https-knol.ethereum.cn-research-and-developement-sharding.md)
 * [Eth1-&gt;Eth2 迁移](eth2-researches/eth2-migration.md)
-* [Layer2扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/README.md)
+* [Layer2 扩容解决方案](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/README.md)
   * [ZK Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/zk-rollups.md)
   * [Optimistic Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/optimistic-rollups.md)
   * [Plasma](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/plasma.md)
@@ -59,6 +59,6 @@
 
 ## 延伸阅读 <a id="extended-resources"></a>
 
-* [Phase 0 deepdive](extended-resources/untitled-1.md)
 * [Phase 0 规范图示](extended-resources/phase-0-gui-fan-tu-shi.md)
+* [Eth2 规范（注释版）](extended-resources/eth2-gui-fan-zhu-shi-ban.md)
 
