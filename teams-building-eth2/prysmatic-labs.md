@@ -68,6 +68,8 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
   </tbody>
 </table>
 
+## 客户端安装教程
+
 ## 团队成员
 
 #### Raul Jordan ：团队leader，Thiel Fellow基金得者，以太坊开发者
