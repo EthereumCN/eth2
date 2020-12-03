@@ -6,10 +6,10 @@
 
 ## ETH2 客户端 <a id="teams-building-eth2"></a>
 
-* [Prysm（Prysmatic Labs）](teams-building-eth2/prysmatic-labs.md)
-* [Teku（ConsenSys）](teams-building-eth2/pegasys.md)
-* [Lighthouse（Sigma Prime）](teams-building-eth2/sigma-prime.md)
-* [Nimbus（Status）](teams-building-eth2/status.md)
+* [Prysm - Prysmatic Labs](teams-building-eth2/prysmatic-labs.md)
+* [Teku - ConsenSys](teams-building-eth2/pegasys.md)
+* [Lighthouse - Sigma Prime](teams-building-eth2/sigma-prime.md)
+* [Nimbus - Status](teams-building-eth2/status.md)
 
 ## Staking
 

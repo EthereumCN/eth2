@@ -2,7 +2,7 @@
 description: 基于 Rust 语言的客户端
 ---
 
-# Lighthouse（Sigma Prime）
+# Lighthouse - Sigma Prime
 
 ## 简介
 
@@ -24,14 +24,6 @@ description: 基于 Rust 语言的客户端
 | Adrian Manning | Adrian在悉尼大学获得了理论粒子物理学博士学位，在那里他利用对应用数学，计算机科学和人工智能的长期兴趣来分析和解决复杂的问题。 Adrian擅长于区块链技术，密码学和信息安全，他在物理学和数学上的专业知识令他在Sigma Prime的工作如鱼得水。 Adrian致力于理解和设计复杂的系统，并且对支撑它们的核心技术有深入的了解。 |
 | Paul Hauner | Paul是一位多学科的软件工程师，在企业，军事和卫生领域的关键系统的领导开发方面拥有丰富的经验。 作为自由软件开发人员和技术顾问，Paul为各种机构（包括大型银行和政府网络安全运营中心）部署了系统。 Paul是区块链和分布式分类帐技术的早期接纳者，并且在区块链服务实施的所有阶段都有经验。 Paul在以太坊网络上拥有特殊的专业知识，在智能合约开发，测试和实施方面经验丰富。 |
 | Mehai Zerouali | Mehdi在正义黑客方面的专业知识受到客户和同事的推崇。 在安永（Ernst＆Young）作为顾问团队的渗透测试员的职业生涯中，他表现出色，他对包括金融服务，电信和公共部门在内的众多行业的公司网络和应用程序进行了数百次渗透测试。 Mehdi的专业精神和专业知识使他迅速晋升到安永高级安全中心的管理部门，在那里他培养了该公司的下一代道德黑客。 自加入Sigma Prime以来，Mehdi重新回到了他对道德黑客的热爱中，并专注于区块链技术，尤其是以太坊平台。 他在识别安全漏洞方面的实践经验帮助Sigma Prime提供了卓越水平的安全服务。 |
-
-## 资助情况
-
-* 以太坊基金会ETH2共同资助48.5万美元
-* 以太坊基金会第4轮资助15万美元
-* Vitalik YOLO 基金会资助10万美元
-* [Gitcoin资助](https://gitcoin.co/grants/24/prysm-by-prysmatic-labs)
-* [Sigma Prime资助](https://gitcoin.co/grants/24/prysm-by-prysmatic-labs)
 
 ## 资源
 

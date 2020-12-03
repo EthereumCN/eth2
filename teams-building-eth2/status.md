@@ -2,7 +2,7 @@
 description: 基于 Nim 语言的客户端
 ---
 
-# Nimbus（Status）
+# Nimbus - Status
 
 ## 简介
 
@@ -25,10 +25,6 @@ Status 的 Nimbus 团队目前在用 Nim 语言建立 libp2p，这是一个允�
 | Bruno Skvorc | 讽刺将军黑俄罗斯梗 | [Github](https://github.com/swader) |
 | Ștefan Talpalaru | 跌落的磨损盘羊 | [Github](https://github.com/stefantalpalaru) |
 | Kim De Mey | ??? | [Github](https://github.com/kdeme) |
-
-## **资助情况**
-
-获得以太坊基金会ETH2共同资助65万美元以及以太坊基金会第4轮资助50万美元。
 
 ## 资源
 

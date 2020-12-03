@@ -2,7 +2,7 @@
 description: 基于 Go 语言的客户端
 ---
 
-# Prysm（Prysmatic Labs）
+# Prysm - Prysmatic Labs
 
 ## 团队成员加一栏推特指引，按照此模板完善后面的客户端
 
@@ -82,19 +82,6 @@ Prysmatic Labs 成立于2018年的1月， 这个开发者团队中的每个人�
 | Ivan Martinez | 团队成员，以太坊开发者 | [Github](https://github.com/0xKiwi) |
 | Nishant Das | 团队成员， 以太坊开发者 | [Github](https://github.com/nisdas) |
 | Shay Zluf | 团队成员，以太坊开发者 | [Github](https://github.com/shayzluf) |
-
-## 资助情况
-
-*  以太坊基金会ETH2资助72.5万美元
-* 以太坊基金会第4轮资助50万美元
-* WXblockchain资助20万美元
-* 以太坊基金会第一轮资助10万美元
-* Aragon Nest资助10万美元
-* 以太坊社区基金会资助10万
-* Vitalik YOLO 基金会资助10万美元
-* District0x资助5万美元
-* SpankChain资助2.5万美元
-* [Gitcoin资助](https://gitcoin.co/grants/24/prysm-by-prysmatic-labs)
 
 ## 资源
 
