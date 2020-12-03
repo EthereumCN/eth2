@@ -2,7 +2,7 @@
 
 * [Eth2 概览](README.md)
 * [Eth2 术语库](eth2-glossary.md)
-* [Eth2常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
+* [Eth2 常见问题解答](eth2-chang-jian-wen-ti-jie-da.md)
 
 ## ETH2 客户端 <a id="teams-building-eth2"></a>
 
