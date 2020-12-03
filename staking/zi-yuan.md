@@ -1,10 +1,10 @@
-# 资源
+# 相关资源
 
-### 以太坊基金会
+### Eth2 验证者启动器
 
 [Eth2 Launchpad](https://launchpad.ethereum.org/)
 
-### 收益预测
+### 收益计算
 
 [beaconcha.in 质押计算器](https://beaconcha.in/calculator)
 

@@ -13,7 +13,6 @@
 
 ## Staking
 
-* [概览](staking/gai-lan.md)
 * [通识](staking/tong-shi/README.md)
   * [PoS vs. PoW](staking/tong-shi/pos-vs.-pow.md)
   * [密钥](staking/tong-shi/mi-yao.md)
@@ -26,10 +25,11 @@
     * [验证哲学](staking/tong-shi/li-lun/yan-zheng-zhe-xue.md)
     * [设计哲学](staking/tong-shi/li-lun/she-ji-zhe-xue.md)
 * [教程](staking/jiao-cheng/README.md)
+  * [硬件配置](staking/jiao-cheng/ying-jian-pei-zhi.md)
   * [测试网质押教程](staking/jiao-cheng/ce-shi-wang-zhi-ya-jiao-cheng.md)
   * [主网质押教程](staking/jiao-cheng/zhu-wang-zhi-ya-jiao-cheng.md)
-* [FAQ](staking/faq.md)
-* [资源](staking/zi-yuan.md)
+* [验证者 FAQ](staking/faq.md)
+* [相关资源](staking/zi-yuan.md)
 
 ## 研究室 <a id="eth2-researches"></a>
 
