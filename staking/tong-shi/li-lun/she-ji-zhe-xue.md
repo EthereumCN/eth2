@@ -1,2 +1,2 @@
-# 设计哲学
+# Vitalik: Proof of Stake设计哲学
 

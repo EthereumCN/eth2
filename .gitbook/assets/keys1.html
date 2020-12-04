@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://blog.ethereum.org/2020/05/21/keys/ -->
+<html lang="en"><!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2016 --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Validated, staking on eth2: #4 - Keys 🔑 | Ethereum Foundation Blog</title>
+
+  <meta name="author" content="Ethereum Foundation">
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Ethereum Blog - " href="https://blog.ethereum.org/feed.xml">
+
+  
+
+  
+    
+      
+  <link rel="stylesheet" href="./keys1_files/font-awesome.min.css">
+
+    
+      
+  <link rel="stylesheet" href="./keys1_files/instantsearch.min.css">
+
+    
+      
+  <link rel="stylesheet" href="./keys1_files/instantsearch-theme-algolia.min.css">
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="./keys1_files/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="./keys1_files/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="./keys1_files/main.css">
+    
+      <link rel="stylesheet" href="./keys1_files/search.css">
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="./keys1_files/css">
+    
+      <link rel="stylesheet" href="./keys1_files/css(1)">
+    
+  
+
+  
+
+  
+
+  
+
+    <!-- Facebook OpenGraph tags -->
+  
+
+  
+  <meta property="og:title" content="Validated, staking on eth2: #4 - Keys 🔑">
+  
+
+   
+  <meta property="og:description" content="Special thanks to Sacha Yves Saint-Leger &amp;amp; Danny Ryan for their review. At the core of every Proof of Stake system is a signature scheme. Signatures are used to verify the identity of each validator allowing their actions, both good and bad, to be attributed to them. We can verify...">
+  
+
+
+  <meta property="og:type" content="website">
+
+  
+  <meta property="og:url" content="https://blog.ethereum.org/2020/05/21/keys/">
+  <link rel="canonical" href="https://blog.ethereum.org/2020/05/21/keys/">
+  
+
+  
+  <meta property="og:image" content="https://blog.ethereum.org/img/ethereum-blog-og-image.png">
+  
+
+
+  <!-- Twitter summary cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@">
+  <meta name="twitter:creator" content="@">
+
+  
+  <meta name="twitter:title" content="Validated, staking on eth2: #4 - Keys 🔑">
+  
+
+  
+  <meta name="twitter:description" content="Special thanks to Sacha Yves Saint-Leger &amp;amp; Danny Ryan for their review. At the core of every Proof of Stake system is a signature scheme. Signatures are used to verify the identity of each validator allowing their actions, both good and bad, to be attributed to them. We can verify...">
+  
+
+  
+  <meta name="twitter:image" content="https://blog.ethereum.org/favicon.png">
+  
+
+  
+  
+<!-- Matomo -->
+<script type="text/javascript" async="" defer="" src="./keys1_files/matomo.js.下载"></script><script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u = "//matomo.ethereum.org/piwik//";
+    _paq.push(["setTrackerUrl", u + "matomo.php"]);
+    _paq.push(["setSiteId", "2"]);
+    var d = document,
+      g = d.createElement("script"),
+      s = d.getElementsByTagName("script")[0];
+    g.type = "text/javascript";
+    g.async = true;
+    g.defer = true;
+    g.src = u + "matomo.js";
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+
+  
+
+  <link rel="shortcut icon" type="image/png" href="https://blog.ethereum.org/favicon.png">
+
+<style class="mpa-style-fix ImageGatherer">.FotorFrame{position:fixed!important}</style><style class="mpa-style-fix SideFunctionPanel">.weui-desktop-online-faq__wrp{top:304px!important;bottom:unset!important}.weui-desktop-online-faq__wrp .weui-desktop-online-faq__switch{width:38px!important}</style></head>
+
+
+  <body mpa-version="7.16.4" mpa-extension-id="ibefaeehajgcpooopoegkifhgecigeeg">
+
+    
+  
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+        <a class="navbar-brand" href="https://blog.ethereum.org/">Ethereum Blog</a>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="https://ethereum.org/">Ethereum.org</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="https://esp.ethereum.foundation/">ESP</a>
+
+          </li>
+        
+        
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="https://bounty.ethereum.org/">Bug Bounty Program</a>
+
+          </li>
+        
+        
+        <li class="search-icon">
+          <a class="" href="https://blog.ethereum.org/search">
+            <i class="fa fa-search" style="font-size: 1.6em"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+	
+	<div class="avatar-container" style="display: none;">
+	  <div class="avatar-img-border">
+	    <a href="https://blog.ethereum.org/">
+	      <img class="avatar-img" src="./keys1_files/avatar-icon.png">
+		</a>
+	  </div>
+	</div>
+	
+
+  </div>
+</nav>
+
+
+    <!-- TODO this file has become a mess, refactor it -->
+
+
+
+  
+
+  <header class="header-section ">
+  
+
+  <div class="intro-header no-img">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="post-heading">
+            <h1>Validated, staking on eth2: #4 - Keys 🔑</h1>
+            
+        
+            
+              <span class="post-meta">Posted by Carl Beekhuizen on May 21, 2020</span>
+              <ul class="post-category-list">
+                
+                <li>
+                  <a href="https://blog.ethereum.org/category/research-and-development/" class="category-research-and-development">
+                    Research &amp; Development
+                  </a>
+                </li>
+                
+              </ul>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+      
+
+      <article role="main" class="blog-post">
+        <p><img src="./keys1_files/00-Merkle-4K.png" alt="00-Merkle-4K"></p>
+
+<p><em>Special thanks to Sacha Yves Saint-Leger &amp; Danny Ryan for their review.</em></p>
+
+<p>At the core of every Proof of Stake system is a signature scheme. Signatures are used to verify the identity of each validator allowing their actions, both good and bad, to be attributed to them.</p>
+
+<p>We can verify honesty by looking at a validator’s signed messages and we can prove malice by showing messages that violate the rules of consensus.</p>
+
+<p>In fact, in eth2, the identity of a validator <em>is</em> their public key. Specifically, each validator has two sets of keys: a signing key and a withdrawal key.</p>
+
+<h2 id="signing-keys">Signing keys</h2>
+
+<p>A <em>signing key</em> is the key a validator needs to sign attestations and propose blocks. Because a validator needs to sign a message at least once per epoch, the client software must have custody of the key.</p>
+
+<h2 id="withdrawal-keys">Withdrawal keys</h2>
+
+<p>Because the client software is always connected to the internet, there is of course a chance that one’s signing key is compromised. To reduce the impact of such a breach, the actions a validator can perform are split between two keys.</p>
+
+<p>The signing key, as explained above, is used for the validator to perform their duties. On the other hand, the <em>withdrawal key</em> has the power to control a validator’s funds (transferring<em>, and withdrawing</em> ETH).</p>
+
+<p>A validator should only need to use their withdrawal keys a few times over the lifetime of being a validator. This means they can be put into cold storage and stored with a high degree of security (offline).</p>
+
+<p>* Transfers and withdrawals are not enabled until at least phase 1</p>
+
+<h2 id="thats-a-lot-of-keys">That’s a lot of keys!</h2>
+
+<p>If for every 32ETH staked, one needed to save and use 2 unrelated keys to make a deposit, this would get out of hand very quickly.</p>
+
+<p>Luckily, we have a solution. The remedy is to have the keys use a common secret, so that storing a single secret gives access to multiple keys.</p>
+
+<p>In eth2, this is achieved via EIPs <a href="https://eips.ethereum.org/EIPS/eip-2333">2333</a> and <a href="https://eips.ethereum.org/EIPS/eip-2334">2334</a>: a set of standards that describe how withdrawal and signing keys are related, and how they can be derived from a single mnemonic.</p>
+
+<h3 id="mnemonics">Mnemonics</h3>
+
+<p>Mnemonics are another way of encoding secrets and are a much simpler means for people to store and back up their private keys.</p>
+
+<p>The idea being that it is simpler to remember or write down <code class="highlighter-rouge">sausage solution loud isolate focus glide frame door clown million shuffle impulse</code> than <code class="highlighter-rouge">0x1e9f2afcc0737f4502e8d4238e4fe82d45077b2a549902b61d65367acecbccba</code> without making any mistakes.</p>
+
+<h3 id="deriving-keys-from-other-keys">Deriving keys from other keys</h3>
+
+<p>When interacting with wallets, you may have encountered “paths” of the form <code class="highlighter-rouge">m/44'/60'/0'/0/0</code>. These paths describe a relationship between keys.</p>
+
+<p>According to <a href="https://eips.ethereum.org/EIPS/eip-2333">EIP 2333</a>, this relationship takes the form of a tree structure in which a key is determined by a source of entropy (the tree’s seed) and a tree path.</p>
+
+<p>We use the seed to calculate the root of the tree and then build the tree in layers on top of this root. This tree of keys is defined purely through the relationship between the branch followed in the tree, and the tree’s root.</p>
+
+<p>In practical terms, it allows us to find any key in the tree by starting at the root, and calculating the intermediate key at each branch we follow, until we reach the leaf we are interested in.</p>
+
+<p>A wonderful consequence of this is that we can start with a single source of entropy (a mnemonic, for example), and from there build out a practically unlimited number of keys.</p>
+
+<p>In addition, by securely storing just the mnemonic, you have a backup of every key that your validator uses.</p>
+
+<p>This idea is used in eth2 to allow a single mnemonic to generate as many keys as a validator needs. For example, if you wanted to run 3 validators, you could use a single mnemonic to generate the withdrawal keys located at
+<code class="highlighter-rouge">m/0</code>,
+<code class="highlighter-rouge">m/1</code>,
+<code class="highlighter-rouge">m/2</code>.</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>      [m / 0] 
+     /        
+    /           
+[m] - [m / 1] 
+    \
+     \
+      [m / 2] 
+</code></pre>
+</div>
+
+<p>Each branch is separated by a <code class="highlighter-rouge">/</code> so <code class="highlighter-rouge">m/2</code> means start with the master key and follow branch 2.</p>
+
+<p><a href="https://eips.ethereum.org/EIPS/eip-2334">EIP 2334</a> states that the validator’s signing key is the <code class="highlighter-rouge">0</code>th child-branch of the withdrawal key. In practice this means that, when the standard is followed, if you know the private key for withdrawal, you can calculate the corresponding private key for signing.</p>
+
+<p>Continuing with the above example, the signing keys would be found at:
+<code class="highlighter-rouge">m/0/0</code>, 
+<code class="highlighter-rouge">m/1/0</code>,
+<code class="highlighter-rouge">m/2/0</code>.</p>
+
+<div class="language-text highlighter-rouge"><pre class="highlight"><code>      [m / 0] - [m / 0 / 0]
+     /        
+    /           
+[m] - [m / 1] - [m / 1 / 0]
+    \
+     \
+      [m / 2] - [m / 2 / 0]
+</code></pre>
+</div>
+
+<p>While we tried to keep this example as simple as possible, in practice the paths involved are a little longer (<a href="https://eips.ethereum.org/EIPS/eip-2334">EIP 2334</a> requires using <code class="highlighter-rouge">m/12381/3600/i/0</code>, and <code class="highlighter-rouge">m/12381/3600/i/0/0</code> for withdrawal and signing keys respectively). Nevertheless, the logic remains the same.</p>
+
+<p>The important thing to remember is that if you know the mnemonic, you can calculate your withdrawal keys, and from there derive your signing keys.</p>
+
+<h2 id="storing-keys">Storing keys</h2>
+
+<p>Validator clients use keystores as a method for exchanging keys.</p>
+
+<p><em>Keystores</em> are files that contain private keys encrypted with a user’s password. They can be safely stored and transferred between computers provided the password is not stored on the same computer.</p>
+
+<p>When you are ready to start validating, you can give your client the keystores and the password encrypting them (it needs both pieces of information to import your keys).</p>
+
+<h2 id="becoming-a-validator">Becoming a validator</h2>
+
+<p>The first step in becoming a validator is to generate the appropriate keys. These will be generated once you’ve written down your mnemonic.</p>
+
+<p>Since there are no withdrawals or transfers in phase 0, you do not need to have keystores for your withdrawal keys; storing your mnemonic safely is sufficient.</p>
+
+<p>As your validator clients need your signing keys, you will receive a keystore for each of your validators to store these keys.</p>
+
+<p>Now it’s deposit time! To become a validator, you will need to send 32 ETH per validator in addition to your <em>deposit data</em> containing all of your validator public keys.</p>
+
+<p>The deposit data are then recorded in the deposit contract on eth1. This contract is watched by eth2 nodes who are responsible for copying over the deposit data. Once your deposit data has been copied over, you are now officially a validator!</p>
+
+<h2 id="becoming-a-validator-the-easy-way">Becoming a validator the easy way</h2>
+
+<p>We’re happy to announce that we’ve been working hard on a friendly interface to walk validators through this process. Stay posted for an update shortly on what the Eth2 Launchpad is and how to use it!</p>
+
+
+      </article>
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+
+      
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="https://blog.ethereum.org/2020/05/19/ethereum-foundation-spring-2020-update/" data-toggle="tooltip" data-placement="top" title="Ethereum Foundation 2020 Spring Update">← Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="https://blog.ethereum.org/2020/05/28/devcon-hacia-colombia-en-2021/" data-toggle="tooltip" data-placement="top" title="Devcon: Hacia Colombia en 2021">Next Post →</a>
+        </li>
+        
+      </ul>
+
+      
+        <div class="disqus-comments">
+          
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+
+    <footer>
+  <div class="container beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links"><li><a href="https://blog.ethereum.org/feed.xml" title="RSS"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">RSS</span>
+              </a>
+            </li><li><a href="mailto:info@ethereum.org" title="Email me"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Email me</span>
+              </a>
+            </li><li><a href="https://www.facebook.com/ethereumproject" title="Facebook"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li><li><a href="https://github.com/ethereum" title="GitHub"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">GitHub</span>
+              </a>
+            </li><li><a href="https://twitter.com/ethereum" title="Twitter"><span class="fa-stack fa-lg" aria-hidden="true">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter</span>
+              </a>
+            </li></ul>
+      <p class="copyright text-muted">
+        <a href="https://ethereum.foundation/" target="_blank" rel="noopener noreferrer">Ethereum Foundation</a>
+        &nbsp;•&nbsp;
+        2020
+
+        
+        &nbsp;•&nbsp;
+        <a href="https://blog.ethereum.org/">blog.ethereum.org</a>
+        
+
+        &nbsp;•&nbsp;
+        <a href="https://blog.ethereum.org/archive/">Blog Archive</a>
+
+        
+          
+            &nbsp;•&nbsp;
+            <a href="http://matomo.ethereum.org/piwik//index.php?module=CoreAdminHome&amp;action=optOut" target="_blank" rel="noopener noreferrer" class="text_muted">Do-not-Track</a>
+          
+        
+        
+      </p>
+        <!-- Please don't remove this, keep my open source work credited :) -->
+        <p class="theme-by text-muted">
+          Theme by
+          <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+    
+  
+    
+  <script src="./keys1_files/instantsearch.js@2.10.4"></script>
+
+
+  
+
+
+
+
+
+
+
+  
+    
+    
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="/js/jquery-1.11.2.min.js"></scr' + 'ipt>');
+      	}
+      </script><script src="./keys1_files/jquery-1.11.2.min.js.下载"></script>
+    
+  
+    
+    
+	<script src="./keys1_files/bootstrap.min.js.下载"></script>
+    
+  
+    
+    
+	<script src="./keys1_files/main.js.下载"></script>
+    
+  
+
+
+
+<script>
+    function injectProperties(item) {
+        if (item.categories) {
+            item.categoriesMap = item.categories.map(e => {
+                return {
+                    name: e,
+                    slug: e.replace('&', 'and').replace(/\s+/g, '-').toLowerCase()
+                }
+            })
+        }
+
+        if (item.date) {
+            item.dateFormatted = new Date(item.date * 1000).toLocaleDateString()
+        }
+        console.log(item);
+        
+        return item
+    };
+
+    const search = instantsearch({
+        appId: 'DTH6Q9FCM4',
+        apiKey: 'fdeaa347977a94617375900a9696e4ed',
+        indexName: 'posts',
+        routing: true
+    });
+
+    // initialize SearchBox
+    search.addWidget(
+        instantsearch.widgets.searchBox({
+            container: '#search-box',
+            placeholder: 'Search for posts'
+        })
+    );
+
+    // initialize RefinementList
+    search.addWidget(
+        instantsearch.widgets.refinementList({
+            container: '#search-refinement-list',
+            attributeName: 'categories'
+        })
+    );    
+    
+    // initialize currentRefinedValues
+    search.addWidget(
+        instantsearch.widgets.currentRefinedValues({
+        container: '#search-current-refined-values'
+        })
+    );
+
+    // initialize pagination
+    search.addWidget(
+        instantsearch.widgets.pagination({
+        container: '#search-pagination',
+        maxPages: 20,
+        })
+    );
+
+    
+    // initialize hits widget
+    search.addWidget(
+        instantsearch.widgets.hits({
+            // transformItems: c => {console.log(c); return c },
+            transformItems: c => c.map(e => injectProperties(e)),
+            container: '#search-hits',
+            templates: {
+                empty: 'No results',
+                item: `
+                    <h2><a href="{{url}}">{{{_highlightResult.title.value}}}</a></h2>
+                    <p>{{{_highlightResult.content.value}}}</p>
+                    <p class="post-meta">
+                        {{#categoriesMap}}
+                            <a href="/category/{{slug}}.html" class="category-{{slug}}">{{name}}</a>
+                        {{/categoriesMap}}
+                        {{#author}}
+                            <span><i class="fa fa-user-o" aria-hidden="true"></i> {{author}}</span>
+                        {{/author}}
+                        {{#dateFormatted}}
+                            <span><i class="fa fa-calendar-o"></i> {{dateFormatted}}</span>
+                        {{/dateFormatted}}
+                    </p>
+                `
+            }
+        })
+    );
+    
+    search.start();
+</script>
+
+  
+  
+
+<div class="mpa-sc mpa-plugin-article-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-article-gatherer"></div><div class="mpa-sc mpa-plugin-image-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-image-gatherer"></div><div class="mpa-sc mpa-plugin-page-clipper mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-page-clipper"></div><div class="mpa-sc mpa-plugin-text-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-text-gatherer"></div><div class="mpa-sc mpa-plugin-video-gatherer mpa-new mpa-rootsc" data-z="100" style="display: block;" id="mpa-rootsc-video-gatherer"></div><div class="mpa-sc mpa-plugin-side-function-panel mpa-new mpa-rootsc" data-z="110" style="display: block;" id="mpa-rootsc-side-function-panel"></div><div class="mpa-sc mpa-plugin-notifier mpa-new mpa-rootsc" data-z="120" style="display: block;" id="mpa-rootsc-notifier"></div><div class="mpa-sc mpa-plugin-notification-manager mpa-new mpa-rootsc" data-z="130" style="display: block;" id="mpa-rootsc-notification-manager"></div></body></html>
