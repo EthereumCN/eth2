@@ -56,3 +56,7 @@ Eth2的共识既仰赖于LMD-GHOST机制（增加新区块，决定区块链链�
 
 如果网络受到攻击，且/或很大一部分的验证者离线，GHOST还是会继续添加新区块。由于GHOST注重活性且缺乏安全性，随着新区块被不断添加进区块链中，可能会对区块链头部进行更改，这意味着节点会持续获取新的信息。另一方面，FFG相比活性更注重安全性，也就是说在网络足够稳定（验证者能够再次进行一致性投票）之前，FFG将停止对区块进行最终确认。
 
+## 参考来源
+
+[Validated, staking on eth2: \#2 - Two ghosts in a trench coat](https://blog.ethereum.org/2020/02/12/validated-staking-on-eth2-2-two-ghosts-in-a-trench-coat/) by Carl Beekhuizen
+
