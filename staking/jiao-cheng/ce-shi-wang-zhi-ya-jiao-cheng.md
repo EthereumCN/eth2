@@ -214,7 +214,7 @@ https://github.com/ethereum/eth2.0-deposit-cli
 
 ![](../../.gitbook/assets/m9.png)
 
-### 参考
+### 参考资源
 
 [Bankless](https://bankless.substack.com/p/guide-becoming-a-validator-on-the): Guide: Becoming a Validator on the Eth2 Testnet
 
