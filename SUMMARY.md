@@ -21,7 +21,6 @@
     * [证明](staking/tong-shi/gong-shi/zheng-ming.md)
   * [密钥篇](staking/tong-shi/mi-yao.md)
   * [存款过程](staking/tong-shi/cun-kuan-guo-cheng.md)
-  * [创世事件](staking/tong-shi/chuang-shi-shi-jian.md)
   * [延伸阅读](staking/tong-shi/li-lun/README.md)
     * [Vitalik: 区块链验证哲学](staking/tong-shi/li-lun/yan-zheng-zhe-xue.md)
     * [Vitalik: Proof of Stake设计哲学](staking/tong-shi/li-lun/she-ji-zhe-xue.md)
@@ -42,7 +41,6 @@
   * [Optimistic Rollups](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/optimistic-rollups.md)
   * [Plasma](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/plasma.md)
   * [状态通道](eth2-researches/layer2-kuo-rong-jie-jue-fang-an/state-channels.md)
-* [EIPs](eth2-researches/eip.md)
 * [Eth2 经济学](eth2-researches/eth2-jing-ji-xue.md)
 
 ## 新闻间 <a id="news"></a>
